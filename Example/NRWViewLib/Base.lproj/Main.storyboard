@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gBO-AB-FIw">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="eFH-RP-CBd">
+            <objects>
+                <navigationController id="gBO-AB-FIw" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zlr-Vm-xIU">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="IVt-Ze-7fU" kind="relationship" relationship="rootViewController" id="oQ6-AQ-8mo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BZv-tU-7SE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1087" y="443"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yfh-Pf-WZW">
+            <objects>
+                <viewController id="IVt-Ze-7fU" customClass="NRWViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cHv-YN-dWP"/>
+                        <viewControllerLayoutGuide type="bottom" id="4kS-L0-9rd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tRF-x0-jAF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IW0-Wh-elW">
+                                <rect key="frame" x="10" y="72" width="355" height="44"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="E9Z-mU-cUe"/>
+                                </constraints>
+                                <state key="normal" title="checkbox">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="checkboxClick:" destination="IVt-Ze-7fU" eventType="touchUpInside" id="y1T-GF-iOY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="IW0-Wh-elW" secondAttribute="trailing" constant="10" id="YVj-5C-INh"/>
+                            <constraint firstItem="IW0-Wh-elW" firstAttribute="top" secondItem="cHv-YN-dWP" secondAttribute="bottom" constant="8" id="gaa-uG-58t"/>
+                            <constraint firstItem="IW0-Wh-elW" firstAttribute="leading" secondItem="tRF-x0-jAF" secondAttribute="leading" constant="10" id="qOm-vh-JnZ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="SNV-L6-nF7"/>
+                    <connections>
+                        <outlet property="checkboxBtn" destination="IW0-Wh-elW" id="7Ah-D6-IjH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1hW-Qf-LKe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-311.19999999999999" y="441.22938530734638"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,16 @@
+PODS:
+  - NRWViewLib (0.1.0)
+
+DEPENDENCIES:
+  - NRWViewLib (from `../`)
+
+EXTERNAL SOURCES:
+  NRWViewLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NRWViewLib: 1af27fa1b0691fe8c9dc08ee0cbe8b2965d11477
+
+PODFILE CHECKSUM: 7793d22740f9fad8f49b4f7ba6465b7746e3c921
+
+COCOAPODS: 1.5.3

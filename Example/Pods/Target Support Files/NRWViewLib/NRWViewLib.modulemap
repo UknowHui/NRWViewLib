@@ -1,0 +1,6 @@
+framework module NRWViewLib {
+  umbrella header "NRWViewLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
