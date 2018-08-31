@@ -14,4 +14,6 @@
     @import UIKit;
     @import Foundation;
 
+#import <NRWViewLib/NRWViewLib.h>
+
 #endif

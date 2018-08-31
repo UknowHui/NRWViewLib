@@ -7,298 +7,198 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		010C141DCC8465B7F712B034D45B97CB /* NRWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF9E2AB5B29E03F714CCC8A445DEF58 /* NRWCheckboxCell.m */; };
-		1C717EFD527E89BC61623E8DE07378EE /* NRWCheckboxController.h in Headers */ = {isa = PBXBuildFile; fileRef = DBA0D02AA9615CBA89DB414A51812C18 /* NRWCheckboxController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DCA2EDE26899B7560536101B6FC3B46 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 02CA413452F7E203ECF5F8E8A3C197FF /* NRWViewLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29CB3BCA41FA158ACF26C48ACF3FF6BB /* Pods-NRWViewLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBCDCC455458836FE972C54E158F270 /* Pods-NRWViewLib_Tests-dummy.m */; };
-		2B26574EDC653F561B1417A395C7E272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		47A17E8C38EE87EC465799C264D925E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		7AFAB19C8B4BC6DE3063726C2369F1B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		A60F1B73D95F6CCA60CFE540D80DCD40 /* NRWCheckboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7669D38BA14E13643AA8AC43013089 /* NRWCheckboxController.m */; };
-		AA584DBF6C6D4ED21ACE5CD259DD23D0 /* NRWCheckboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF64192FE3EFB98EC0C489A7A511229 /* NRWCheckboxCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BEA4F35FA32B1BEDA2DB9FB9A9C56699 /* NRWViewLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0B60C3FBDF3EEFD1B0C65129F671359 /* NRWViewLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3294E8003D2A5F71B032C56D03E3CD2 /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E37D2621ACC3C5D05274F4713EA531 /* NRWViewLib-dummy.m */; };
-		EBDD654D72D421DEF7CA005C335F26A4 /* Pods-NRWViewLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC3952E9F946A35B85FC3215D7362B7 /* Pods-NRWViewLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EF3C5B1C42BBCF4BB38F176E452CF5E6 /* Pods-NRWViewLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8092C694328AB3204508B06001F8530E /* Pods-NRWViewLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F52AB5CD325F92DD6EF9B39AA4467CC0 /* Pods-NRWViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4C480101BE770A4CBA5F54641DBC01 /* Pods-NRWViewLib_Example-dummy.m */; };
+		04B4C8EE04787B9CE12A247390B8404D /* UIView+NRWFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = A1104F0E9B106E8877C6B6D68DF55C9B /* UIView+NRWFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		148DF1C9BE8E0A80672C4C9D83D1A8BC /* NRWCheckboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E488158BBFEE9BB8743D2786920E9B5 /* NRWCheckboxController.m */; };
+		2D88E77BCF2F3201B0F6889819578C69 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D224ADCFD2B4478C553A89B5748C710 /* NRWViewLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		415893DC3CE5C823F06CDE86FF1A4D0C /* Pods-NRWViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */; };
+		4CFB214388942BA2D4658002046C6EAF /* NRWCheckboxController.h in Headers */ = {isa = PBXBuildFile; fileRef = 305CA55813883A04F4329AD002BE7F2E /* NRWCheckboxController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		638ECABFD2D19718E7939BAFD9F1E4AF /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE5BBD97FD84622EED722593F7022ADE /* NRWViewLib-dummy.m */; };
+		82D0E193CDC22BF5D42A2FB1EEB6D195 /* NRWCheckboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D14774542C3732F085335E99AFFC58A2 /* NRWCheckboxCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5B5E0A3D8730C46B19F6F042E562C6C /* NRWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C38E7816EE8065D23D1EA3368A1471 /* NRWCheckboxCell.m */; };
+		EE4E747B859A542D03718E199D4997DC /* UIView+NRWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C81ACB1978B88C09E29A274F3C935BC /* UIView+NRWFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1627E435C834D01D2744B3335DB1D3B1 /* PBXContainerItemProxy */ = {
+		4DA9B7EC7F97C4480CB7BCB134F65D03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C067A5C33071784B1A4063C6807C2F96;
-			remoteInfo = "Pods-NRWViewLib_Example";
-		};
-		1E1878E3660B5E3A67CE4EFFF1576789 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B85F2FC53D4F1B8C35B557F4B78021CB;
+			remoteGlobalIDString = 22F93CBD6CF4C437DC0E09B8E51BC993;
 			remoteInfo = NRWViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02CA413452F7E203ECF5F8E8A3C197FF /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
-		09EE818612645A174AC77CCDC0075244 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		0B7481C66551C06A7A7DD8DBDE8266BC /* NRWViewLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRWViewLib.framework; path = NRWViewLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1CCD77CF98E11F24E5E8D6527FED2C4A /* Pods-NRWViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1CD0854E14B95E26436A63A3C1F87B92 /* Pods-NRWViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1EF0A13E789F207E8912F86DACCF2628 /* Pods-NRWViewLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1EF64192FE3EFB98EC0C489A7A511229 /* NRWCheckboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxCell.h; path = NRWViewLib/NRWCheckboxCell.h; sourceTree = "<group>"; };
-		283F6D8CC4CB895B8C99C9FDD900E931 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2D13C3F88890C7139E58840952463450 /* Pods-NRWViewLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4F737C48BE711C0BAB81135CAF273664 /* Pods_NRWViewLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRWViewLib_Example.framework; path = "Pods-NRWViewLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5DBCDCC455458836FE972C54E158F270 /* Pods-NRWViewLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRWViewLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		5DC2028AA4700008D5AB6A0C50625A53 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		5E537172AD87F283B881314EDF51DA2B /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
-		60A2E9FEE041D64CD56B8FC781DDDC6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		64586950CA9E473071B40578F4824B31 /* Pods-NRWViewLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRWViewLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		67E37D2621ACC3C5D05274F4713EA531 /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
-		7184578CD6AE54E9A2C796C56BA00259 /* Pods-NRWViewLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8092C694328AB3204508B06001F8530E /* Pods-NRWViewLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRWViewLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		83E8AD5E94957189A7F8024C84401BD8 /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
-		8AC3952E9F946A35B85FC3215D7362B7 /* Pods-NRWViewLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRWViewLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		8BF9E2AB5B29E03F714CCC8A445DEF58 /* NRWCheckboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxCell.m; path = NRWViewLib/NRWCheckboxCell.m; sourceTree = "<group>"; };
-		8C3775A055789D3F9B7246D0F7E27805 /* Pods_NRWViewLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NRWViewLib_Tests.framework; path = "Pods-NRWViewLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		917FECDD4EF58DF2CD7FD700BC8BE5E7 /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08C94FA6304ABFD206BC5684488F4958 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0D224ADCFD2B4478C553A89B5748C710 /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
+		226FB6BE9C615342FFDEB886FD59DB1A /* Pods-NRWViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2BC1F15A3FFF5000BFBDD1BCE9440831 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2C81ACB1978B88C09E29A274F3C935BC /* UIView+NRWFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NRWFrame.m"; path = "NRWViewLib/UIView+NRWFrame.m"; sourceTree = "<group>"; };
+		305CA55813883A04F4329AD002BE7F2E /* NRWCheckboxController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxController.h; path = NRWViewLib/NRWCheckboxController.h; sourceTree = "<group>"; };
+		441822A42B675BA356C665725734F884 /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
+		4472DD464EE5C107BDC7D80DCF64283B /* libNRWViewLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNRWViewLib.a; path = libNRWViewLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5374332D1246B3EA31710DA4DC9DFDEE /* Pods-NRWViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRWViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E488158BBFEE9BB8743D2786920E9B5 /* NRWCheckboxController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxController.m; path = NRWViewLib/NRWCheckboxController.m; sourceTree = "<group>"; };
+		6CCBEE16A681178CD78E0BB1EED90737 /* libPods-NRWViewLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NRWViewLib_Example.a"; path = "libPods-NRWViewLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRWViewLib_Example-dummy.m"; sourceTree = "<group>"; };
+		74984CB11E2F9A1BEE26D047D32B7A34 /* Pods-NRWViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRWViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7D8E40C5E68F0C0DB48C1C933DFD2D17 /* Pods-NRWViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7E7B2CFF69FE1208936F3D85A9F91E84 /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94B33824B7B73D0C273387A2BD25DA23 /* Pods-NRWViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9E090C77EB03E91DD94A2D2F86F8710B /* Pods-NRWViewLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRWViewLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0B258355DBEEED786284688B2FCE76C /* Pods-NRWViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRWViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0B60C3FBDF3EEFD1B0C65129F671359 /* NRWViewLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-umbrella.h"; sourceTree = "<group>"; };
-		B73BB90B713BE8E78EE6BC61CCBD4946 /* Pods-NRWViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRWViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B8A23F8F3868EA45C701E14C736EBFC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D67331C4065D384BC17412D2B3F3E42C /* Pods-NRWViewLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRWViewLib_Example.modulemap"; sourceTree = "<group>"; };
-		DBA0D02AA9615CBA89DB414A51812C18 /* NRWCheckboxController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxController.h; path = NRWViewLib/NRWCheckboxController.h; sourceTree = "<group>"; };
-		DC131E7A98885393DC987D2A3537A2B6 /* Pods-NRWViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-resources.sh"; sourceTree = "<group>"; };
-		DC4C480101BE770A4CBA5F54641DBC01 /* Pods-NRWViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRWViewLib_Example-dummy.m"; sourceTree = "<group>"; };
-		E6274D4CD630B3BACCA73EE6BBBF7963 /* Pods-NRWViewLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRWViewLib_Tests.modulemap"; sourceTree = "<group>"; };
-		EE06B41F42C5A7C6A229C90E270B86C0 /* NRWViewLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRWViewLib.modulemap; sourceTree = "<group>"; };
-		EE7669D38BA14E13643AA8AC43013089 /* NRWCheckboxController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxController.m; path = NRWViewLib/NRWCheckboxController.m; sourceTree = "<group>"; };
-		FDDE75035CF26C3C2535040DDFA72450 /* Pods-NRWViewLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		A0C38E7816EE8065D23D1EA3368A1471 /* NRWCheckboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxCell.m; path = NRWViewLib/NRWCheckboxCell.m; sourceTree = "<group>"; };
+		A1104F0E9B106E8877C6B6D68DF55C9B /* UIView+NRWFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NRWFrame.h"; path = "NRWViewLib/UIView+NRWFrame.h"; sourceTree = "<group>"; };
+		C8DC54EFAA62BE087726002B7DAED730 /* Pods-NRWViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-resources.sh"; sourceTree = "<group>"; };
+		D14774542C3732F085335E99AFFC58A2 /* NRWCheckboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxCell.h; path = NRWViewLib/NRWCheckboxCell.h; sourceTree = "<group>"; };
+		E738B1061E6B2B7537851980CB60843F /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
+		E7FC64FA7DB1E27DB4C4DBC8EF935F0C /* Pods-NRWViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FE5BBD97FD84622EED722593F7022ADE /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		22D1703783AB09BE9653B9E3B5C0C39E /* Frameworks */ = {
+		8318AEFF22DC6E83F34A43F739767526 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47A17E8C38EE87EC465799C264D925E6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6C4EE5DB92492ED0ECAD3F67789347BC /* Frameworks */ = {
+		B9B98ECB207A049826E9D2AB053C93CF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFAB19C8B4BC6DE3063726C2369F1B9 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CA84F06579EDBD6770B35731BE03BC92 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B26574EDC653F561B1417A395C7E272 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FF45EE6DFBF55F0BA8F57BC1DBFD984 /* Products */ = {
+		014967588AC27EC7BE18CF2C3F81E5E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0B7481C66551C06A7A7DD8DBDE8266BC /* NRWViewLib.framework */,
-				4F737C48BE711C0BAB81135CAF273664 /* Pods_NRWViewLib_Example.framework */,
-				8C3775A055789D3F9B7246D0F7E27805 /* Pods_NRWViewLib_Tests.framework */,
+				4472DD464EE5C107BDC7D80DCF64283B /* libNRWViewLib.a */,
+				6CCBEE16A681178CD78E0BB1EED90737 /* libPods-NRWViewLib_Example.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1F809358EA1B6B8DF4026802B4685155 /* Support Files */ = {
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				60A2E9FEE041D64CD56B8FC781DDDC6F /* Info.plist */,
-				EE06B41F42C5A7C6A229C90E270B86C0 /* NRWViewLib.modulemap */,
-				83E8AD5E94957189A7F8024C84401BD8 /* NRWViewLib.xcconfig */,
-				67E37D2621ACC3C5D05274F4713EA531 /* NRWViewLib-dummy.m */,
-				5E537172AD87F283B881314EDF51DA2B /* NRWViewLib-prefix.pch */,
-				B0B60C3FBDF3EEFD1B0C65129F671359 /* NRWViewLib-umbrella.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C4585598D67AE8F0E73ADDEE2314229 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E738B1061E6B2B7537851980CB60843F /* NRWViewLib.xcconfig */,
+				FE5BBD97FD84622EED722593F7022ADE /* NRWViewLib-dummy.m */,
+				441822A42B675BA356C665725734F884 /* NRWViewLib-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/NRWViewLib";
 			sourceTree = "<group>";
 		};
-		203DAB41C40F8EBFD6944AE52999D631 /* Targets Support Files */ = {
+		250C4A42DF33AB8D1A30ECE7C26E22EA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				736C5C78D93DA21881A2280EE399B531 /* Pods-NRWViewLib_Example */,
-				6996CBF40AEF567A4A5892F45196F8B2 /* Pods-NRWViewLib_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		559C996BFF24EAD63B26E73FC1E5AFD9 /* NRWViewLib */ = {
-			isa = PBXGroup;
-			children = (
-				1EF64192FE3EFB98EC0C489A7A511229 /* NRWCheckboxCell.h */,
-				8BF9E2AB5B29E03F714CCC8A445DEF58 /* NRWCheckboxCell.m */,
-				DBA0D02AA9615CBA89DB414A51812C18 /* NRWCheckboxController.h */,
-				EE7669D38BA14E13643AA8AC43013089 /* NRWCheckboxController.m */,
-				02CA413452F7E203ECF5F8E8A3C197FF /* NRWViewLib.h */,
-				59AE994DBBE23A1D7CF70012466BADE3 /* Pod */,
-				1F809358EA1B6B8DF4026802B4685155 /* Support Files */,
-			);
-			name = NRWViewLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		59AE994DBBE23A1D7CF70012466BADE3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5DC2028AA4700008D5AB6A0C50625A53 /* LICENSE */,
-				917FECDD4EF58DF2CD7FD700BC8BE5E7 /* NRWViewLib.podspec */,
-				09EE818612645A174AC77CCDC0075244 /* README.md */,
+				08C94FA6304ABFD206BC5684488F4958 /* LICENSE */,
+				7E7B2CFF69FE1208936F3D85A9F91E84 /* NRWViewLib.podspec */,
+				2BC1F15A3FFF5000BFBDD1BCE9440831 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+		49EAB9A6A7E13921B7BD0FF97F1326E2 /* Pods-NRWViewLib_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6996CBF40AEF567A4A5892F45196F8B2 /* Pods-NRWViewLib_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				283F6D8CC4CB895B8C99C9FDD900E931 /* Info.plist */,
-				E6274D4CD630B3BACCA73EE6BBBF7963 /* Pods-NRWViewLib_Tests.modulemap */,
-				9E090C77EB03E91DD94A2D2F86F8710B /* Pods-NRWViewLib_Tests-acknowledgements.markdown */,
-				64586950CA9E473071B40578F4824B31 /* Pods-NRWViewLib_Tests-acknowledgements.plist */,
-				5DBCDCC455458836FE972C54E158F270 /* Pods-NRWViewLib_Tests-dummy.m */,
-				1EF0A13E789F207E8912F86DACCF2628 /* Pods-NRWViewLib_Tests-frameworks.sh */,
-				FDDE75035CF26C3C2535040DDFA72450 /* Pods-NRWViewLib_Tests-resources.sh */,
-				8AC3952E9F946A35B85FC3215D7362B7 /* Pods-NRWViewLib_Tests-umbrella.h */,
-				7184578CD6AE54E9A2C796C56BA00259 /* Pods-NRWViewLib_Tests.debug.xcconfig */,
-				2D13C3F88890C7139E58840952463450 /* Pods-NRWViewLib_Tests.release.xcconfig */,
-			);
-			name = "Pods-NRWViewLib_Tests";
-			path = "Target Support Files/Pods-NRWViewLib_Tests";
-			sourceTree = "<group>";
-		};
-		6CB3A89403DEC426B0B588CAD1AA564A /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				559C996BFF24EAD63B26E73FC1E5AFD9 /* NRWViewLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		736C5C78D93DA21881A2280EE399B531 /* Pods-NRWViewLib_Example */ = {
-			isa = PBXGroup;
-			children = (
-				B8A23F8F3868EA45C701E14C736EBFC1 /* Info.plist */,
-				D67331C4065D384BC17412D2B3F3E42C /* Pods-NRWViewLib_Example.modulemap */,
-				A0B258355DBEEED786284688B2FCE76C /* Pods-NRWViewLib_Example-acknowledgements.markdown */,
-				B73BB90B713BE8E78EE6BC61CCBD4946 /* Pods-NRWViewLib_Example-acknowledgements.plist */,
-				DC4C480101BE770A4CBA5F54641DBC01 /* Pods-NRWViewLib_Example-dummy.m */,
-				94B33824B7B73D0C273387A2BD25DA23 /* Pods-NRWViewLib_Example-frameworks.sh */,
-				DC131E7A98885393DC987D2A3537A2B6 /* Pods-NRWViewLib_Example-resources.sh */,
-				8092C694328AB3204508B06001F8530E /* Pods-NRWViewLib_Example-umbrella.h */,
-				1CCD77CF98E11F24E5E8D6527FED2C4A /* Pods-NRWViewLib_Example.debug.xcconfig */,
-				1CD0854E14B95E26436A63A3C1F87B92 /* Pods-NRWViewLib_Example.release.xcconfig */,
+				5374332D1246B3EA31710DA4DC9DFDEE /* Pods-NRWViewLib_Example-acknowledgements.markdown */,
+				74984CB11E2F9A1BEE26D047D32B7A34 /* Pods-NRWViewLib_Example-acknowledgements.plist */,
+				73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */,
+				226FB6BE9C615342FFDEB886FD59DB1A /* Pods-NRWViewLib_Example-frameworks.sh */,
+				C8DC54EFAA62BE087726002B7DAED730 /* Pods-NRWViewLib_Example-resources.sh */,
+				E7FC64FA7DB1E27DB4C4DBC8EF935F0C /* Pods-NRWViewLib_Example.debug.xcconfig */,
+				7D8E40C5E68F0C0DB48C1C933DFD2D17 /* Pods-NRWViewLib_Example.release.xcconfig */,
 			);
 			name = "Pods-NRWViewLib_Example";
 			path = "Target Support Files/Pods-NRWViewLib_Example";
+			sourceTree = "<group>";
+		};
+		64B932493E7B637B82C3A0FD262719EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49EAB9A6A7E13921B7BD0FF97F1326E2 /* Pods-NRWViewLib_Example */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6CB3A89403DEC426B0B588CAD1AA564A /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0FF45EE6DFBF55F0BA8F57BC1DBFD984 /* Products */,
-				203DAB41C40F8EBFD6944AE52999D631 /* Targets Support Files */,
+				F2A6D527413254D63D9E25F34D8B1353 /* Development Pods */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				014967588AC27EC7BE18CF2C3F81E5E5 /* Products */,
+				64B932493E7B637B82C3A0FD262719EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		AFD638E76ACC0754FC34C95E1352A521 /* NRWViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+				D14774542C3732F085335E99AFFC58A2 /* NRWCheckboxCell.h */,
+				A0C38E7816EE8065D23D1EA3368A1471 /* NRWCheckboxCell.m */,
+				305CA55813883A04F4329AD002BE7F2E /* NRWCheckboxController.h */,
+				5E488158BBFEE9BB8743D2786920E9B5 /* NRWCheckboxController.m */,
+				0D224ADCFD2B4478C553A89B5748C710 /* NRWViewLib.h */,
+				A1104F0E9B106E8877C6B6D68DF55C9B /* UIView+NRWFrame.h */,
+				2C81ACB1978B88C09E29A274F3C935BC /* UIView+NRWFrame.m */,
+				250C4A42DF33AB8D1A30ECE7C26E22EA /* Pod */,
+				1C4585598D67AE8F0E73ADDEE2314229 /* Support Files */,
 			);
-			name = Frameworks;
+			name = NRWViewLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F2A6D527413254D63D9E25F34D8B1353 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD638E76ACC0754FC34C95E1352A521 /* NRWViewLib */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		923AA3A36D5133CE9D04F5E816BD526A /* Headers */ = {
+		0A736EF0F041300EFBD785D029874470 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDD654D72D421DEF7CA005C335F26A4 /* Pods-NRWViewLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8D030511E69CFE6B35E068937D56074 /* Headers */ = {
+		93FB2A528F7C0F6715A3090B8CD21F28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA584DBF6C6D4ED21ACE5CD259DD23D0 /* NRWCheckboxCell.h in Headers */,
-				1C717EFD527E89BC61623E8DE07378EE /* NRWCheckboxController.h in Headers */,
-				BEA4F35FA32B1BEDA2DB9FB9A9C56699 /* NRWViewLib-umbrella.h in Headers */,
-				1DCA2EDE26899B7560536101B6FC3B46 /* NRWViewLib.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D37199B9FAD09B56C4A00F38270FD9CD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EF3C5B1C42BBCF4BB38F176E452CF5E6 /* Pods-NRWViewLib_Example-umbrella.h in Headers */,
+				82D0E193CDC22BF5D42A2FB1EEB6D195 /* NRWCheckboxCell.h in Headers */,
+				4CFB214388942BA2D4658002046C6EAF /* NRWCheckboxController.h in Headers */,
+				2D88E77BCF2F3201B0F6889819578C69 /* NRWViewLib.h in Headers */,
+				04B4C8EE04787B9CE12A247390B8404D /* UIView+NRWFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6845A114CD968E3EDD254A65F310FD97 /* Pods-NRWViewLib_Tests */ = {
+		22F93CBD6CF4C437DC0E09B8E51BC993 /* NRWViewLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1BEA4755ABF570266C6486DA960E3C1 /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Tests" */;
+			buildConfigurationList = EF64B5D65DA9C9CFE5B9C4D4A50271ED /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
 			buildPhases = (
-				923AA3A36D5133CE9D04F5E816BD526A /* Headers */,
-				2789AB70C1823A422A86144FE5D1F226 /* Sources */,
-				6C4EE5DB92492ED0ECAD3F67789347BC /* Frameworks */,
-				16850D8F1E996A5D7F2153FCF9E2BFEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E48E22143FC6F563A56D675C92A3D746 /* PBXTargetDependency */,
-			);
-			name = "Pods-NRWViewLib_Tests";
-			productName = "Pods-NRWViewLib_Tests";
-			productReference = 8C3775A055789D3F9B7246D0F7E27805 /* Pods_NRWViewLib_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B85F2FC53D4F1B8C35B557F4B78021CB /* NRWViewLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 461B9830E45D68D0CB4844FEB7F6FB99 /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
-			buildPhases = (
-				C8D030511E69CFE6B35E068937D56074 /* Headers */,
-				1F9C82D44B717F5416973A893349435F /* Sources */,
-				CA84F06579EDBD6770B35731BE03BC92 /* Frameworks */,
-				C3D333E964CB53408E53B68D85E0D796 /* Resources */,
+				93FB2A528F7C0F6715A3090B8CD21F28 /* Headers */,
+				49A9C8AE39745BC3346C41FDEF8E6472 /* Sources */,
+				B9B98ECB207A049826E9D2AB053C93CF /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,27 +206,26 @@
 			);
 			name = NRWViewLib;
 			productName = NRWViewLib;
-			productReference = 0B7481C66551C06A7A7DD8DBDE8266BC /* NRWViewLib.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 4472DD464EE5C107BDC7D80DCF64283B /* libNRWViewLib.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		C067A5C33071784B1A4063C6807C2F96 /* Pods-NRWViewLib_Example */ = {
+		FDF82F81C8F7D68D4A6A338511BEC7B9 /* Pods-NRWViewLib_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDCE39FC6829CAD6DCC6214287EDDF48 /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Example" */;
+			buildConfigurationList = E26F74B281FEBFFEAA9706F9BFD51A4A /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Example" */;
 			buildPhases = (
-				D37199B9FAD09B56C4A00F38270FD9CD /* Headers */,
-				C9023183E6D9FEF5A57041AC95275A7F /* Sources */,
-				22D1703783AB09BE9653B9E3B5C0C39E /* Frameworks */,
-				93A2D8ED7A9F48131AE0A654349D4CE1 /* Resources */,
+				0A736EF0F041300EFBD785D029874470 /* Headers */,
+				117D5E6142B9AAAAED6F29CF15A4776F /* Sources */,
+				8318AEFF22DC6E83F34A43F739767526 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFB289DEDAEA95F7D3FBDBDAEB085F61 /* PBXTargetDependency */,
+				C548DA112B407426906729562E3F050C /* PBXTargetDependency */,
 			);
 			name = "Pods-NRWViewLib_Example";
 			productName = "Pods-NRWViewLib_Example";
-			productReference = 4F737C48BE711C0BAB81135CAF273664 /* Pods_NRWViewLib_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 6CCBEE16A681178CD78E0BB1EED90737 /* libPods-NRWViewLib_Example.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -345,149 +244,113 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0FF45EE6DFBF55F0BA8F57BC1DBFD984 /* Products */;
+			productRefGroup = 014967588AC27EC7BE18CF2C3F81E5E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B85F2FC53D4F1B8C35B557F4B78021CB /* NRWViewLib */,
-				C067A5C33071784B1A4063C6807C2F96 /* Pods-NRWViewLib_Example */,
-				6845A114CD968E3EDD254A65F310FD97 /* Pods-NRWViewLib_Tests */,
+				22F93CBD6CF4C437DC0E09B8E51BC993 /* NRWViewLib */,
+				FDF82F81C8F7D68D4A6A338511BEC7B9 /* Pods-NRWViewLib_Example */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		16850D8F1E996A5D7F2153FCF9E2BFEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93A2D8ED7A9F48131AE0A654349D4CE1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C3D333E964CB53408E53B68D85E0D796 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		1F9C82D44B717F5416973A893349435F /* Sources */ = {
+		117D5E6142B9AAAAED6F29CF15A4776F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				010C141DCC8465B7F712B034D45B97CB /* NRWCheckboxCell.m in Sources */,
-				A60F1B73D95F6CCA60CFE540D80DCD40 /* NRWCheckboxController.m in Sources */,
-				D3294E8003D2A5F71B032C56D03E3CD2 /* NRWViewLib-dummy.m in Sources */,
+				415893DC3CE5C823F06CDE86FF1A4D0C /* Pods-NRWViewLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2789AB70C1823A422A86144FE5D1F226 /* Sources */ = {
+		49A9C8AE39745BC3346C41FDEF8E6472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29CB3BCA41FA158ACF26C48ACF3FF6BB /* Pods-NRWViewLib_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C9023183E6D9FEF5A57041AC95275A7F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F52AB5CD325F92DD6EF9B39AA4467CC0 /* Pods-NRWViewLib_Example-dummy.m in Sources */,
+				E5B5E0A3D8730C46B19F6F042E562C6C /* NRWCheckboxCell.m in Sources */,
+				148DF1C9BE8E0A80672C4C9D83D1A8BC /* NRWCheckboxController.m in Sources */,
+				638ECABFD2D19718E7939BAFD9F1E4AF /* NRWViewLib-dummy.m in Sources */,
+				EE4E747B859A542D03718E199D4997DC /* UIView+NRWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AFB289DEDAEA95F7D3FBDBDAEB085F61 /* PBXTargetDependency */ = {
+		C548DA112B407426906729562E3F050C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NRWViewLib;
-			target = B85F2FC53D4F1B8C35B557F4B78021CB /* NRWViewLib */;
-			targetProxy = 1E1878E3660B5E3A67CE4EFFF1576789 /* PBXContainerItemProxy */;
-		};
-		E48E22143FC6F563A56D675C92A3D746 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NRWViewLib_Example";
-			target = C067A5C33071784B1A4063C6807C2F96 /* Pods-NRWViewLib_Example */;
-			targetProxy = 1627E435C834D01D2744B3335DB1D3B1 /* PBXContainerItemProxy */;
+			target = 22F93CBD6CF4C437DC0E09B8E51BC993 /* NRWViewLib */;
+			targetProxy = 4DA9B7EC7F97C4480CB7BCB134F65D03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08A2389087E96A1744A56C5134EAC121 /* Debug */ = {
+		11282FC464F40355F995D93E0C0C9BE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CCD77CF98E11F24E5E8D6527FED2C4A /* Pods-NRWViewLib_Example.debug.xcconfig */;
+			baseConfigurationReference = E738B1061E6B2B7537851980CB60843F /* NRWViewLib.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NRWViewLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NRWViewLib_Example/Pods-NRWViewLib_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38CE6751AC98E8134FA09EFE157A952D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E8AD5E94957189A7F8024C84401BD8 /* NRWViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NRWViewLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NRWViewLib/NRWViewLib.modulemap";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = NRWViewLib;
 				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		275CC699A2D9EB96930ED5905A6E34A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8E40C5E68F0C0DB48C1C933DFD2D17 /* Pods-NRWViewLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4CEB89AA7FEF930CDFFFF48BCCCD6A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7FC64FA7DB1E27DB4C4DBC8EF935F0C /* Pods-NRWViewLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		60DAF49CA7A9F362148D49C3C3123B2A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -553,134 +416,27 @@
 			};
 			name = Debug;
 		};
-		7C97A47A88FD3B82539A5F047D741870 /* Debug */ = {
+		69987CF1D8351A30A5EA29DBEA167E98 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83E8AD5E94957189A7F8024C84401BD8 /* NRWViewLib.xcconfig */;
+			baseConfigurationReference = E738B1061E6B2B7537851980CB60843F /* NRWViewLib.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NRWViewLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/NRWViewLib/NRWViewLib.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = NRWViewLib;
 				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7D29D2B292015C55D188D03DFB4A51CB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7184578CD6AE54E9A2C796C56BA00259 /* Pods-NRWViewLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NRWViewLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NRWViewLib_Tests/Pods-NRWViewLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AC7ACC660C0E96D281C44314CFB0C7EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D13C3F88890C7139E58840952463450 /* Pods-NRWViewLib_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NRWViewLib_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NRWViewLib_Tests/Pods-NRWViewLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B9385A02F4381833EAF8118D403C8647 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1CD0854E14B95E26436A63A3C1F87B92 /* Pods-NRWViewLib_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NRWViewLib_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NRWViewLib_Example/Pods-NRWViewLib_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -755,29 +511,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		461B9830E45D68D0CB4844FEB7F6FB99 /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
+		E26F74B281FEBFFEAA9706F9BFD51A4A /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7C97A47A88FD3B82539A5F047D741870 /* Debug */,
-				38CE6751AC98E8134FA09EFE157A952D /* Release */,
+				4CEB89AA7FEF930CDFFFF48BCCCD6A9E /* Debug */,
+				275CC699A2D9EB96930ED5905A6E34A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDCE39FC6829CAD6DCC6214287EDDF48 /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Example" */ = {
+		EF64B5D65DA9C9CFE5B9C4D4A50271ED /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08A2389087E96A1744A56C5134EAC121 /* Debug */,
-				B9385A02F4381833EAF8118D403C8647 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E1BEA4755ABF570266C6486DA960E3C1 /* Build configuration list for PBXNativeTarget "Pods-NRWViewLib_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7D29D2B292015C55D188D03DFB4A51CB /* Debug */,
-				AC7ACC660C0E96D281C44314CFB0C7EB /* Release */,
+				11282FC464F40355F995D93E0C0C9BE9 /* Debug */,
+				69987CF1D8351A30A5EA29DBEA167E98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

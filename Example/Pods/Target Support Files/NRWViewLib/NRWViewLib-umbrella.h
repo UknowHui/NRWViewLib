@@ -13,6 +13,7 @@
 #import "NRWCheckboxCell.h"
 #import "NRWCheckboxController.h"
 #import "NRWViewLib.h"
+#import "UIView+NRWFrame.h"
 
 FOUNDATION_EXPORT double NRWViewLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char NRWViewLibVersionString[];

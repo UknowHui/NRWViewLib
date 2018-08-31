@@ -1,6 +1,0 @@
-framework module Pods_NRWViewLib_Tests {
-  umbrella header "Pods-NRWViewLib_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

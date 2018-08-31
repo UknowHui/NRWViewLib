@@ -2,8 +2,8 @@
 //  NRWViewLibTests.m
 //  NRWViewLibTests
 //
-//  Created by 王亚辉 on 08/30/2018.
-//  Copyright (c) 2018 王亚辉. All rights reserved.
+//  Created by uknow on 08/30/2018.
+//  Copyright (c) 2018 uknow. All rights reserved.
 //
 
 @import XCTest;

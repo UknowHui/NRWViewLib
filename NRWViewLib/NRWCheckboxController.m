@@ -8,6 +8,8 @@
 
 #import "NRWCheckboxController.h"
 
+#import "UIView+NRWFrame.h"
+
 #import "NRWCheckboxCell.h"
 
 @interface NRWCheckboxController ()<UITableViewDelegate,UITableViewDataSource>
@@ -36,7 +38,7 @@
 
 -(void)initTableview{
     
-    self.tableview = [[UITableView alloc] init];
+    self.tableview = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.nrw_width, self.view.nrw_height) style:UITableViewStylePlain];
     self.tableview.delegate = self;
     self.tableview.dataSource = self;
     self.tableview.backgroundColor = [UIColor whiteColor];

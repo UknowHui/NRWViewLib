@@ -2,12 +2,13 @@
 //  NRWViewController.m
 //  NRWViewLib
 //
-//  Created by 王亚辉 on 08/30/2018.
-//  Copyright (c) 2018 王亚辉. All rights reserved.
+//  Created by uknow on 08/30/2018.
+//  Copyright (c) 2018 uknow. All rights reserved.
 //
 
 #import "NRWViewController.h"
 
+#import <NRWViewLib/NRWCheckboxController.h>
 
 @interface NRWViewController ()
 
@@ -29,6 +30,9 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)checkboxClick:(id)sender {
+    
+    NRWCheckboxController *checkboxVC = [[NRWCheckboxController alloc] init];
+    [self.navigationController pushViewController:checkboxVC animated:YES];
 }
 
 @end

@@ -1,11 +1,6 @@
-use_frameworks!
-
 target 'NRWViewLib_Example' do
-  pod 'NRWViewLib', :path => '../'
 
-  target 'NRWViewLib_Tests' do
-    inherit! :search_paths
+pod 'NRWViewLib', :path => '../'
 
-    
-  end
+
 end

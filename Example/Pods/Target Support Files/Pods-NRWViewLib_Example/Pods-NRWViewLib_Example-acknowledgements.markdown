@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## NRWViewLib
 
-Copyright (c) 2018 王亚辉 <wangyahui@newrunway.com>
+Copyright (c) 2018 uknow <wangyahui@newrunway.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
