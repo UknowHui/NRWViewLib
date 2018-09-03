@@ -14,6 +14,8 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *checkboxBtn;
 
+@property (nonatomic, strong) NSMutableArray *titleArray;
+
 @end
 
 @implementation NRWViewController
@@ -22,6 +24,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.titleArray = [NSMutableArray arrayWithObjects:@"就业", @"求学", @"学龄前", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,7 +35,17 @@
 }
 - (IBAction)checkboxClick:(id)sender {
     
-    NRWCheckboxController *checkboxVC = [[NRWCheckboxController alloc] init];
+    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil selectBlock:^(NSMutableArray *indexArray) {
+        
+        NSMutableString *mutableStr = [NSMutableString string];
+        for (int i = 0; i < indexArray.count; i++) {
+            if ([indexArray[i] intValue] == 1) {
+                [mutableStr appendFormat:@"%@ ", self.titleArray[i]];
+            }
+        }
+        NSLog(@"%@", mutableStr);
+        
+    }];
     [self.navigationController pushViewController:checkboxVC animated:YES];
 }
 

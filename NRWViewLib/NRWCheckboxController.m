@@ -24,6 +24,8 @@
 
 @property (nonatomic, copy) void(^selectBlock)(NSMutableArray *);
 
+@property (nonatomic, strong) UIImage *selectImage;
+
 @end
 
 @implementation NRWCheckboxController
@@ -32,6 +34,15 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"确定" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemClick)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+    
+    NSBundle *bundle = [NSBundle bundleForClass:[NRWCheckboxController class]];
+    NSURL *url = [bundle URLForResource:@"NRWViewLib" withExtension:@"bundle"];
+    NSBundle *imageBundle = [NSBundle bundleWithURL:url];
+    
+    self.selectImage = [UIImage imageWithContentsOfFile:[imageBundle pathForResource:@"nrw_selected" ofType:@"png"]];
     
     [self initTableview];
 }
@@ -69,7 +80,7 @@
     int index = [_indexArray[indexPath.row] intValue];
     if (index == 1) {
         cell.titleLabel.textColor = [UIColor redColor];
-        cell.selectImageView.image = [UIImage imageNamed:@"finance_selected"];
+        cell.selectImageView.image = self.selectImage;
     }else{
         cell.titleLabel.textColor = [UIColor blackColor];
         cell.selectImageView.image = [UIImage imageNamed:@""];

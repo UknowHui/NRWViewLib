@@ -20,5 +20,6 @@
   },
   "source_files": "NRWViewLib/*.{h,m}",
   "public_header_files": "NRWViewLib/*.h",
+  "resources": "NRWViewLib/NRWViewLib.bundle",
   "requires_arc": true
 }

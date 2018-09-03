@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
     s.author       = { "UknowHui" => "wangyahuiuknow@gmail.com" }
     s.platform     = :ios, '9.0'
     s.source       = { :git => "https://github.com/UknowHui/NRWViewLib.git", :tag => s.version.to_s }
-    s.source_files  = 'NRWViewLib/*.{h,m}'
+    s.source_files = 'NRWViewLib/*.{h,m}'
     s.public_header_files = 'NRWViewLib/*.h'
+    s.resources    = 'NRWViewLib/NRWViewLib.bundle'
     s.requires_arc = true
 end
