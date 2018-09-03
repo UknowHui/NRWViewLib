@@ -22,9 +22,9 @@
 
 @property (nonatomic, strong) NSMutableArray *indexArray;
 
-@property (nonatomic, copy) void(^selectBlock)(NSMutableArray *);
-
 @property (nonatomic, strong) UIImage *selectImage;
+
+@property (nonatomic, copy) void(^selectBlock)(NSMutableArray *);
 
 @end
 
