@@ -10,6 +10,8 @@
 
 #import "UIView+NRWFrame.h"
 
+#import "UIImage+ClearImage.h"
+
 #import "NRWCheckboxCell.h"
 
 @interface NRWCheckboxController ()<UITableViewDelegate,UITableViewDataSource>
@@ -83,7 +85,7 @@
         cell.selectImageView.image = self.selectImage;
     }else{
         cell.titleLabel.textColor = [UIColor blackColor];
-        cell.selectImageView.image = [UIImage imageNamed:@""];
+        cell.selectImageView.image = [UIImage clearImage];
     }
     
     return cell;
