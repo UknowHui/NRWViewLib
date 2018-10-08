@@ -21,6 +21,8 @@ Pod::Spec.new do |s|
     s.subspec 'NRWCustomView' do |ss|
         ss.source_files = 'NRWViewLib/NRWCustomView/*.{h,m}'
         ss.public_header_files = 'NRWViewLib/NRWCustomView/*.h'
+        ss.dependency 'NRWViewLib/NRWUtil'
+        ss.dependency 'NRWViewLib/NRWCategory'
     end
     
     s.subspec 'NRWUIKit' do |ss|
