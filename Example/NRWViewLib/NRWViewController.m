@@ -8,8 +8,6 @@
 
 #import "NRWViewController.h"
 
-#import <NRWViewLib/NRWCheckboxController.h>
-
 @interface NRWViewController ()
 
 @property (weak, nonatomic) IBOutlet UIButton *checkboxBtn;

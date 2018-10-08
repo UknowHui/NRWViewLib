@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2E1AC6D1531E470252FE5697BEF27C4A /* NRWCheckboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EA73D02017BAEE5CBEE71125DDE0F55D /* NRWCheckboxCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		324CDAE5C1E41377BAD78E18EAE104FF /* UIButton+NRWImageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 157C1F32233AABB3EF1E44133EF21354 /* UIButton+NRWImageTitle.m */; };
+		010F767BE4812CA5478589A049540CAB /* UIButton+NRWImageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AABB1CD72F3AA823A5854BB46AAC47 /* UIButton+NRWImageTitle.m */; };
+		09EB7A78408108C80B1CABADDF70832D /* UIImage+ClearImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF51F5DDD7C41CE377A597E853EFE2 /* UIImage+ClearImage.m */; };
+		0CF223FA8E253417CB4013F1DCE1499B /* NRWCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = F223A37A92D972922110C7B6958F897E /* NRWCategory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0FB5F9C51459B13C18EE04800842BE7F /* UIView+NRWFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0575CDBCB21FC56817AC3701A05B3187 /* UIView+NRWFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		12C5BE189208D0A573B28A6EF74BBBF7 /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EEA5C963729317CB80169BC2D2E8B3 /* NRWViewLib-dummy.m */; };
+		1BBF58AC18742A75F3BB935F4F2CE43E /* NSError+debugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = B6C00C97D81EFAD224B5B546651CB562 /* NSError+debugDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4146C9E7142AED91FC5959699EE02135 /* NRWCheckboxController.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B9E5E11B01482742DCCF3F53295DD2 /* NRWCheckboxController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		415893DC3CE5C823F06CDE86FF1A4D0C /* Pods-NRWViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */; };
-		48BBA67D54FF9A2FCCD48E321888C856 /* NSError+debugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 399BA4067FB748C981ACD0F60BD1EA17 /* NSError+debugDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		58E53DB1012039117E104B8154DDED86 /* UIButton+NRWImageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E0B81E5DF90F084CBA76C86BF936B12 /* UIButton+NRWImageTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63825E3F5D9C8E9112D81A0F4D92953D /* NRWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B113588D216F2916979336389CFC4 /* NRWAlert.m */; };
-		72844ABC9485E063E237DA01090FDD1F /* UIImage+ClearImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ED647590B6A29E47E9975905B633ED5 /* UIImage+ClearImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CAF819B047DFBF335229683B6ED4C3D /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC19B57BA84B14093EBA29AFBC03011 /* NRWViewLib-dummy.m */; };
-		90AFDAB75B57BAEC3E565FE9153BCDF9 /* UIView+NRWFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = FD6C593500A1B3F082474885EF940704 /* UIView+NRWFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		91522EC327432C7D0B515938BC5BB426 /* UIView+NRWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E5C32E329237CB5ED05A6E22568B44 /* UIView+NRWFrame.m */; };
-		B767600126F9BF5B158CE7EE6269B108 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 74C070D31FE17C111C83C3B1E26A6414 /* NRWViewLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C260382454BB8FA0629CC9982797A86A /* NRWCheckboxController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152D411ADE903A09EAAACD67D184ABF /* NRWCheckboxController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D3D3655034BF113FA011B82AE9F1AA89 /* NRWCheckboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37B13DB39051F1548E06E7F56ED61D /* NRWCheckboxController.m */; };
-		D47215A65F1B334761E59A864E4C72F6 /* UIImage+ClearImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1855475221CF6E9628D4807289BA59CC /* UIImage+ClearImage.m */; };
-		E59752D751F2B85F0AA0B9383D1B3B06 /* NSError+debugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8520A5A8118E79443078D10B033D68 /* NSError+debugDescription.m */; };
-		E90BF71EE96BAE4BDBFFA95986AE34DE /* NRWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 718AC49E6AE512B32AEA2469720494FD /* NRWCheckboxCell.m */; };
-		F4D98AB5929CBFAE70A88F10AFD28C8C /* NRWAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B5675A7F929EC912AB4331CCB976F7E /* NRWAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55AA105D80D8C72561B5127E2D16D38E /* NRWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2904E0E80641E974A6510087E25016B7 /* NRWCheckboxCell.m */; };
+		6A654DACD3FA66F0AE9CFD2571A1B447 /* NRWUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DEE4C37BA665130B625ED6D23E92DCE /* NRWUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6DFAC67F4999544C1BADBD14A12FDC9E /* NRWAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = EE921CC49FACFE181648C6A2076408D1 /* NRWAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		730B998B93EA25FDAA4B30B4FBB066DD /* NSError+debugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 05059B2C3165BC0C9DD606E0E4A15799 /* NSError+debugDescription.m */; };
+		7CC93564F687F95CBD7E68048C357358 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C0D7F928C39A6D8829DCE36B1CA1FF1 /* NRWViewLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8101C68D0904BA34FD42953DF1D7D546 /* NRWCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9133D77A28681F48F5270E5FAA6C59CC /* NRWCustomView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8844C98B81AD44014011DE7232E58350 /* NRWCheckboxCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F4EBA13A37DA78404E92826443F6089B /* NRWCheckboxCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		962DD0CE0FE8C085D2E38D96DD6D8E04 /* NRWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = B614947D9B1F8BA24B78DED69F49A137 /* NRWAlert.m */; };
+		A91C2EF1D1444AAAE0BD70F5850C79D3 /* UIButton+NRWImageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = ED965C07144E71F6488187DE508A4EB2 /* UIButton+NRWImageTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C345C889518FE4B0DCEAB516AFFBDD05 /* UIView+NRWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 384011FF49CCD269330ED529412A5514 /* UIView+NRWFrame.m */; };
+		DB888248B9D31800B8C2B616F6237D7F /* NRWCheckboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6A3FCF601BB6AB795FCAEBA33896ED /* NRWCheckboxController.m */; };
+		DD609449DB00C82D9B821AAC29C49246 /* UIImage+ClearImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D5E4649676F6574A560E6290B80C355 /* UIImage+ClearImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3D66675BDED2E9AB8ADC39BF1C66BC4 /* NRWUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C6DE62BCA8AE64BD57655E9EF7027D19 /* NRWUIKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,55 +35,59 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9E3EC99B71D90C3D1053950766AEB819;
+			remoteGlobalIDString = ADF2F0302AE0FE6851AAFB1B806FFF53;
 			remoteInfo = NRWViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A37B13DB39051F1548E06E7F56ED61D /* NRWCheckboxController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NRWCheckboxController.m; sourceTree = "<group>"; };
-		0E1B113588D216F2916979336389CFC4 /* NRWAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NRWAlert.m; sourceTree = "<group>"; };
-		157C1F32233AABB3EF1E44133EF21354 /* UIButton+NRWImageTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+NRWImageTitle.m"; sourceTree = "<group>"; };
-		1855475221CF6E9628D4807289BA59CC /* UIImage+ClearImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ClearImage.m"; sourceTree = "<group>"; };
-		1C5FFE365172BA380554C43BF384E7FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		05059B2C3165BC0C9DD606E0E4A15799 /* NSError+debugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+debugDescription.m"; path = "NRWViewLib/NRWCategory/NSError+debugDescription.m"; sourceTree = "<group>"; };
+		0575CDBCB21FC56817AC3701A05B3187 /* UIView+NRWFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NRWFrame.h"; path = "NRWViewLib/NRWUtil/UIView+NRWFrame.h"; sourceTree = "<group>"; };
+		18FE9CE23A1A62AD355A527482E8CCC9 /* NRWViewLib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NRWViewLib.bundle; path = NRWViewLib/NRWViewLib.bundle; sourceTree = "<group>"; };
+		1E16E1BC96F80D51F82A3ED445D83998 /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
 		226FB6BE9C615342FFDEB886FD59DB1A /* Pods-NRWViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		2E0B81E5DF90F084CBA76C86BF936B12 /* UIButton+NRWImageTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+NRWImageTitle.h"; sourceTree = "<group>"; };
-		2E8520A5A8118E79443078D10B033D68 /* NSError+debugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSError+debugDescription.m"; sourceTree = "<group>"; };
-		399BA4067FB748C981ACD0F60BD1EA17 /* NSError+debugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSError+debugDescription.h"; sourceTree = "<group>"; };
-		3ED647590B6A29E47E9975905B633ED5 /* UIImage+ClearImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ClearImage.h"; sourceTree = "<group>"; };
-		4152D411ADE903A09EAAACD67D184ABF /* NRWCheckboxController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NRWCheckboxController.h; sourceTree = "<group>"; };
+		2904E0E80641E974A6510087E25016B7 /* NRWCheckboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxCell.m; path = NRWViewLib/NRWCustomView/NRWCheckboxCell.m; sourceTree = "<group>"; };
+		34AABB1CD72F3AA823A5854BB46AAC47 /* UIButton+NRWImageTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NRWImageTitle.m"; path = "NRWViewLib/NRWCategory/UIButton+NRWImageTitle.m"; sourceTree = "<group>"; };
+		384011FF49CCD269330ED529412A5514 /* UIView+NRWFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NRWFrame.m"; path = "NRWViewLib/NRWUtil/UIView+NRWFrame.m"; sourceTree = "<group>"; };
+		3A1E51BB2CB63EFC584DABF8173A9AE5 /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4472DD464EE5C107BDC7D80DCF64283B /* libNRWViewLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNRWViewLib.a; path = libNRWViewLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5E4649676F6574A560E6290B80C355 /* UIImage+ClearImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ClearImage.h"; path = "NRWViewLib/NRWCategory/UIImage+ClearImage.h"; sourceTree = "<group>"; };
+		4DCF51F5DDD7C41CE377A597E853EFE2 /* UIImage+ClearImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ClearImage.m"; path = "NRWViewLib/NRWCategory/UIImage+ClearImage.m"; sourceTree = "<group>"; };
 		5374332D1246B3EA31710DA4DC9DFDEE /* Pods-NRWViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRWViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D6A3FCF601BB6AB795FCAEBA33896ED /* NRWCheckboxController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWCheckboxController.m; path = NRWViewLib/NRWCustomView/NRWCheckboxController.m; sourceTree = "<group>"; };
+		6A0DDA6493D4916984A49E7BA1B5E18C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6CCBEE16A681178CD78E0BB1EED90737 /* libPods-NRWViewLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NRWViewLib_Example.a"; path = "libPods-NRWViewLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		718AC49E6AE512B32AEA2469720494FD /* NRWCheckboxCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NRWCheckboxCell.m; sourceTree = "<group>"; };
 		73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRWViewLib_Example-dummy.m"; sourceTree = "<group>"; };
 		74984CB11E2F9A1BEE26D047D32B7A34 /* Pods-NRWViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRWViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		74C070D31FE17C111C83C3B1E26A6414 /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
 		7D8E40C5E68F0C0DB48C1C933DFD2D17 /* Pods-NRWViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		84857B83404A867CDE320EAC696E8867 /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
+		8DEE4C37BA665130B625ED6D23E92DCE /* NRWUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWUtil.h; path = NRWViewLib/NRWUtil/NRWUtil.h; sourceTree = "<group>"; };
+		9133D77A28681F48F5270E5FAA6C59CC /* NRWCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCustomView.h; path = NRWViewLib/NRWCustomView/NRWCustomView.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9B5675A7F929EC912AB4331CCB976F7E /* NRWAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NRWAlert.h; sourceTree = "<group>"; };
-		A93F0F1FF9D2044496ED7C12FD9CD88F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		AC80FBFE49E86FC54906277767C2CFA7 /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C0D7F928C39A6D8829DCE36B1CA1FF1 /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
+		B4B9E5E11B01482742DCCF3F53295DD2 /* NRWCheckboxController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxController.h; path = NRWViewLib/NRWCustomView/NRWCheckboxController.h; sourceTree = "<group>"; };
+		B4FE390A395B4DCB8F1DC523AB79C23D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B614947D9B1F8BA24B78DED69F49A137 /* NRWAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWAlert.m; path = NRWViewLib/NRWUIKit/NRWAlert.m; sourceTree = "<group>"; };
+		B6C00C97D81EFAD224B5B546651CB562 /* NSError+debugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+debugDescription.h"; path = "NRWViewLib/NRWCategory/NSError+debugDescription.h"; sourceTree = "<group>"; };
+		C6DE62BCA8AE64BD57655E9EF7027D19 /* NRWUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWUIKit.h; path = NRWViewLib/NRWUIKit/NRWUIKit.h; sourceTree = "<group>"; };
 		C8DC54EFAA62BE087726002B7DAED730 /* Pods-NRWViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-resources.sh"; sourceTree = "<group>"; };
-		D9A358C0AD64157F1856370DDE64220A /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
-		DDB85EBA710B279BE1F6D45EAFBC9A2F /* NRWViewLib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NRWViewLib.bundle; path = NRWViewLib/NRWViewLib.bundle; sourceTree = "<group>"; };
+		C8EEA5C963729317CB80169BC2D2E8B3 /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
 		E7FC64FA7DB1E27DB4C4DBC8EF935F0C /* Pods-NRWViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EA73D02017BAEE5CBEE71125DDE0F55D /* NRWCheckboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NRWCheckboxCell.h; sourceTree = "<group>"; };
-		F5E5C32E329237CB5ED05A6E22568B44 /* UIView+NRWFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+NRWFrame.m"; sourceTree = "<group>"; };
-		FD6C593500A1B3F082474885EF940704 /* UIView+NRWFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+NRWFrame.h"; sourceTree = "<group>"; };
-		FFC19B57BA84B14093EBA29AFBC03011 /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
+		ED965C07144E71F6488187DE508A4EB2 /* UIButton+NRWImageTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NRWImageTitle.h"; path = "NRWViewLib/NRWCategory/UIButton+NRWImageTitle.h"; sourceTree = "<group>"; };
+		EE921CC49FACFE181648C6A2076408D1 /* NRWAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWAlert.h; path = NRWViewLib/NRWUIKit/NRWAlert.h; sourceTree = "<group>"; };
+		F05D6A4E61E85434CFDC2280BE68BF4C /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
+		F223A37A92D972922110C7B6958F897E /* NRWCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCategory.h; path = NRWViewLib/NRWCategory/NRWCategory.h; sourceTree = "<group>"; };
+		F4EBA13A37DA78404E92826443F6089B /* NRWCheckboxCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWCheckboxCell.h; path = NRWViewLib/NRWCustomView/NRWCheckboxCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8318AEFF22DC6E83F34A43F739767526 /* Frameworks */ = {
+		117FF3A389E404B18EB9CCF4006ACA31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C6E3541A3F2EF00BA4054A86D0AB350 /* Frameworks */ = {
+		8318AEFF22DC6E83F34A43F739767526 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,25 +106,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0602772E5EAA5C62A7946792F8604773 /* NRWUtil */ = {
+		0DDCC97D91F0C5B5C066DB8AAB2AFC1E /* NRWViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				FD6C593500A1B3F082474885EF940704 /* UIView+NRWFrame.h */,
-				F5E5C32E329237CB5ED05A6E22568B44 /* UIView+NRWFrame.m */,
+				9C0D7F928C39A6D8829DCE36B1CA1FF1 /* NRWViewLib.h */,
+				1D12CE699B8E3A21F61FB14E59D25B8C /* NRWCategory */,
+				65E3CC79E1932425CC8E2CE73CF4AA0F /* NRWCustomView */,
+				AE67550940F3C749FB3FE0AC3F820419 /* NRWUIKit */,
+				170FCC206519E92C1CC672E3423717AA /* NRWUtil */,
+				88200389FDBE4E5CECBD7BAC007DA053 /* Pod */,
+				2CA95303278E3592D227D7A5328ECD45 /* Resources */,
+				717BC6928BAD3995BA65D669BF8148ED /* Support Files */,
 			);
-			name = NRWUtil;
-			path = NRWViewLib/NRWUtil;
-			sourceTree = "<group>";
-		};
-		0A18DC2065E0775839C7ABB745A91649 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				84857B83404A867CDE320EAC696E8867 /* NRWViewLib.xcconfig */,
-				FFC19B57BA84B14093EBA29AFBC03011 /* NRWViewLib-dummy.m */,
-				D9A358C0AD64157F1856370DDE64220A /* NRWViewLib-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NRWViewLib";
+			name = NRWViewLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
@@ -126,32 +129,36 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1E85DBC44E23C2D514A2797A410963A7 /* NRWViewLib */ = {
+		170FCC206519E92C1CC672E3423717AA /* NRWUtil */ = {
 			isa = PBXGroup;
 			children = (
-				74C070D31FE17C111C83C3B1E26A6414 /* NRWViewLib.h */,
-				937C71973FCF8751D669F43FDD4BE1F7 /* NRWCategory */,
-				395F2174D0707241D876FB57A3B8E53B /* NRWCustomView */,
-				FC7D2A2AF5E22048679E09F1D8A1144D /* NRWUIKit */,
-				0602772E5EAA5C62A7946792F8604773 /* NRWUtil */,
-				827ADB8C1AF35D0C5E3EC18C7022F2C8 /* Pod */,
-				B1115D7C17AB9EC1703CEE7089891057 /* Resources */,
-				0A18DC2065E0775839C7ABB745A91649 /* Support Files */,
+				8DEE4C37BA665130B625ED6D23E92DCE /* NRWUtil.h */,
+				0575CDBCB21FC56817AC3701A05B3187 /* UIView+NRWFrame.h */,
+				384011FF49CCD269330ED529412A5514 /* UIView+NRWFrame.m */,
 			);
-			name = NRWViewLib;
-			path = ../..;
+			name = NRWUtil;
 			sourceTree = "<group>";
 		};
-		395F2174D0707241D876FB57A3B8E53B /* NRWCustomView */ = {
+		1D12CE699B8E3A21F61FB14E59D25B8C /* NRWCategory */ = {
 			isa = PBXGroup;
 			children = (
-				EA73D02017BAEE5CBEE71125DDE0F55D /* NRWCheckboxCell.h */,
-				718AC49E6AE512B32AEA2469720494FD /* NRWCheckboxCell.m */,
-				4152D411ADE903A09EAAACD67D184ABF /* NRWCheckboxController.h */,
-				0A37B13DB39051F1548E06E7F56ED61D /* NRWCheckboxController.m */,
+				F223A37A92D972922110C7B6958F897E /* NRWCategory.h */,
+				B6C00C97D81EFAD224B5B546651CB562 /* NSError+debugDescription.h */,
+				05059B2C3165BC0C9DD606E0E4A15799 /* NSError+debugDescription.m */,
+				ED965C07144E71F6488187DE508A4EB2 /* UIButton+NRWImageTitle.h */,
+				34AABB1CD72F3AA823A5854BB46AAC47 /* UIButton+NRWImageTitle.m */,
+				4D5E4649676F6574A560E6290B80C355 /* UIImage+ClearImage.h */,
+				4DCF51F5DDD7C41CE377A597E853EFE2 /* UIImage+ClearImage.m */,
 			);
-			name = NRWCustomView;
-			path = NRWViewLib/NRWCustomView;
+			name = NRWCategory;
+			sourceTree = "<group>";
+		};
+		2CA95303278E3592D227D7A5328ECD45 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18FE9CE23A1A62AD355A527482E8CCC9 /* NRWViewLib.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		49EAB9A6A7E13921B7BD0FF97F1326E2 /* Pods-NRWViewLib_Example */ = {
@@ -172,7 +179,7 @@
 		4AA03F3D5A64EC084B821EDA59B9D3C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1E85DBC44E23C2D514A2797A410963A7 /* NRWViewLib */,
+				0DDCC97D91F0C5B5C066DB8AAB2AFC1E /* NRWViewLib */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -183,6 +190,29 @@
 				49EAB9A6A7E13921B7BD0FF97F1326E2 /* Pods-NRWViewLib_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65E3CC79E1932425CC8E2CE73CF4AA0F /* NRWCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				F4EBA13A37DA78404E92826443F6089B /* NRWCheckboxCell.h */,
+				2904E0E80641E974A6510087E25016B7 /* NRWCheckboxCell.m */,
+				B4B9E5E11B01482742DCCF3F53295DD2 /* NRWCheckboxController.h */,
+				5D6A3FCF601BB6AB795FCAEBA33896ED /* NRWCheckboxController.m */,
+				9133D77A28681F48F5270E5FAA6C59CC /* NRWCustomView.h */,
+			);
+			name = NRWCustomView;
+			sourceTree = "<group>";
+		};
+		717BC6928BAD3995BA65D669BF8148ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F05D6A4E61E85434CFDC2280BE68BF4C /* NRWViewLib.xcconfig */,
+				C8EEA5C963729317CB80169BC2D2E8B3 /* NRWViewLib-dummy.m */,
+				1E16E1BC96F80D51F82A3ED445D83998 /* NRWViewLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRWViewLib";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -196,46 +226,24 @@
 			);
 			sourceTree = "<group>";
 		};
-		827ADB8C1AF35D0C5E3EC18C7022F2C8 /* Pod */ = {
+		88200389FDBE4E5CECBD7BAC007DA053 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A93F0F1FF9D2044496ED7C12FD9CD88F /* LICENSE */,
-				AC80FBFE49E86FC54906277767C2CFA7 /* NRWViewLib.podspec */,
-				1C5FFE365172BA380554C43BF384E7FA /* README.md */,
+				B4FE390A395B4DCB8F1DC523AB79C23D /* LICENSE */,
+				3A1E51BB2CB63EFC584DABF8173A9AE5 /* NRWViewLib.podspec */,
+				6A0DDA6493D4916984A49E7BA1B5E18C /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		937C71973FCF8751D669F43FDD4BE1F7 /* NRWCategory */ = {
+		AE67550940F3C749FB3FE0AC3F820419 /* NRWUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				399BA4067FB748C981ACD0F60BD1EA17 /* NSError+debugDescription.h */,
-				2E8520A5A8118E79443078D10B033D68 /* NSError+debugDescription.m */,
-				2E0B81E5DF90F084CBA76C86BF936B12 /* UIButton+NRWImageTitle.h */,
-				157C1F32233AABB3EF1E44133EF21354 /* UIButton+NRWImageTitle.m */,
-				3ED647590B6A29E47E9975905B633ED5 /* UIImage+ClearImage.h */,
-				1855475221CF6E9628D4807289BA59CC /* UIImage+ClearImage.m */,
-			);
-			name = NRWCategory;
-			path = NRWViewLib/NRWCategory;
-			sourceTree = "<group>";
-		};
-		B1115D7C17AB9EC1703CEE7089891057 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				DDB85EBA710B279BE1F6D45EAFBC9A2F /* NRWViewLib.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		FC7D2A2AF5E22048679E09F1D8A1144D /* NRWUIKit */ = {
-			isa = PBXGroup;
-			children = (
-				9B5675A7F929EC912AB4331CCB976F7E /* NRWAlert.h */,
-				0E1B113588D216F2916979336389CFC4 /* NRWAlert.m */,
+				EE921CC49FACFE181648C6A2076408D1 /* NRWAlert.h */,
+				B614947D9B1F8BA24B78DED69F49A137 /* NRWAlert.m */,
+				C6DE62BCA8AE64BD57655E9EF7027D19 /* NRWUIKit.h */,
 			);
 			name = NRWUIKit;
-			path = NRWViewLib/NRWUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,31 +256,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A66F061E62DD1514890897516334CC61 /* Headers */ = {
+		380F3422742B5430D6D6CC3388E59CC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D98AB5929CBFAE70A88F10AFD28C8C /* NRWAlert.h in Headers */,
-				2E1AC6D1531E470252FE5697BEF27C4A /* NRWCheckboxCell.h in Headers */,
-				C260382454BB8FA0629CC9982797A86A /* NRWCheckboxController.h in Headers */,
-				B767600126F9BF5B158CE7EE6269B108 /* NRWViewLib.h in Headers */,
-				48BBA67D54FF9A2FCCD48E321888C856 /* NSError+debugDescription.h in Headers */,
-				58E53DB1012039117E104B8154DDED86 /* UIButton+NRWImageTitle.h in Headers */,
-				72844ABC9485E063E237DA01090FDD1F /* UIImage+ClearImage.h in Headers */,
-				90AFDAB75B57BAEC3E565FE9153BCDF9 /* UIView+NRWFrame.h in Headers */,
+				6DFAC67F4999544C1BADBD14A12FDC9E /* NRWAlert.h in Headers */,
+				0CF223FA8E253417CB4013F1DCE1499B /* NRWCategory.h in Headers */,
+				8844C98B81AD44014011DE7232E58350 /* NRWCheckboxCell.h in Headers */,
+				4146C9E7142AED91FC5959699EE02135 /* NRWCheckboxController.h in Headers */,
+				8101C68D0904BA34FD42953DF1D7D546 /* NRWCustomView.h in Headers */,
+				F3D66675BDED2E9AB8ADC39BF1C66BC4 /* NRWUIKit.h in Headers */,
+				6A654DACD3FA66F0AE9CFD2571A1B447 /* NRWUtil.h in Headers */,
+				7CC93564F687F95CBD7E68048C357358 /* NRWViewLib.h in Headers */,
+				1BBF58AC18742A75F3BB935F4F2CE43E /* NSError+debugDescription.h in Headers */,
+				A91C2EF1D1444AAAE0BD70F5850C79D3 /* UIButton+NRWImageTitle.h in Headers */,
+				DD609449DB00C82D9B821AAC29C49246 /* UIImage+ClearImage.h in Headers */,
+				0FB5F9C51459B13C18EE04800842BE7F /* UIView+NRWFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */ = {
+		ADF2F0302AE0FE6851AAFB1B806FFF53 /* NRWViewLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3308334E1CDEE70668F44D09C564B5E /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
+			buildConfigurationList = FBD9A4FA81E7F2CFE415E96424A5D4E6 /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
 			buildPhases = (
-				A66F061E62DD1514890897516334CC61 /* Headers */,
-				FEF1AE9D6AA6050B585D32DB63E560E4 /* Sources */,
-				8C6E3541A3F2EF00BA4054A86D0AB350 /* Frameworks */,
+				380F3422742B5430D6D6CC3388E59CC1 /* Headers */,
+				7F4676849AA5856986EBBC0A53864836 /* Sources */,
+				117FF3A389E404B18EB9CCF4006ACA31 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */,
+				ADF2F0302AE0FE6851AAFB1B806FFF53 /* NRWViewLib */,
 				FDF82F81C8F7D68D4A6A338511BEC7B9 /* Pods-NRWViewLib_Example */,
 			);
 		};
@@ -337,18 +349,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FEF1AE9D6AA6050B585D32DB63E560E4 /* Sources */ = {
+		7F4676849AA5856986EBBC0A53864836 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63825E3F5D9C8E9112D81A0F4D92953D /* NRWAlert.m in Sources */,
-				E90BF71EE96BAE4BDBFFA95986AE34DE /* NRWCheckboxCell.m in Sources */,
-				D3D3655034BF113FA011B82AE9F1AA89 /* NRWCheckboxController.m in Sources */,
-				7CAF819B047DFBF335229683B6ED4C3D /* NRWViewLib-dummy.m in Sources */,
-				E59752D751F2B85F0AA0B9383D1B3B06 /* NSError+debugDescription.m in Sources */,
-				324CDAE5C1E41377BAD78E18EAE104FF /* UIButton+NRWImageTitle.m in Sources */,
-				D47215A65F1B334761E59A864E4C72F6 /* UIImage+ClearImage.m in Sources */,
-				91522EC327432C7D0B515938BC5BB426 /* UIView+NRWFrame.m in Sources */,
+				962DD0CE0FE8C085D2E38D96DD6D8E04 /* NRWAlert.m in Sources */,
+				55AA105D80D8C72561B5127E2D16D38E /* NRWCheckboxCell.m in Sources */,
+				DB888248B9D31800B8C2B616F6237D7F /* NRWCheckboxController.m in Sources */,
+				12C5BE189208D0A573B28A6EF74BBBF7 /* NRWViewLib-dummy.m in Sources */,
+				730B998B93EA25FDAA4B30B4FBB066DD /* NSError+debugDescription.m in Sources */,
+				010F767BE4812CA5478589A049540CAB /* UIButton+NRWImageTitle.m in Sources */,
+				09EB7A78408108C80B1CABADDF70832D /* UIImage+ClearImage.m in Sources */,
+				C345C889518FE4B0DCEAB516AFFBDD05 /* UIView+NRWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +370,7 @@
 		C548DA112B407426906729562E3F050C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NRWViewLib;
-			target = 9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */;
+			target = ADF2F0302AE0FE6851AAFB1B806FFF53 /* NRWViewLib */;
 			targetProxy = 4DA9B7EC7F97C4480CB7BCB134F65D03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,53 +393,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		2DEA0D2C82A2669FBE5F6F6D8F32F97A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84857B83404A867CDE320EAC696E8867 /* NRWViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = NRWViewLib;
-				PRODUCT_NAME = NRWViewLib;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4AF44B863EE8F3EF8D20AF658069BB82 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 84857B83404A867CDE320EAC696E8867 /* NRWViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = NRWViewLib;
-				PRODUCT_NAME = NRWViewLib;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -518,6 +483,29 @@
 			};
 			name = Debug;
 		};
+		7B50D2013580E15D8C1564FD088438E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05D6A4E61E85434CFDC2280BE68BF4C /* NRWViewLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NRWViewLib;
+				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		C4EAA84F44D044E108500A81C635F21E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +565,30 @@
 			};
 			name = Release;
 		};
+		ED923CE72F9850D5539E694C582AC3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F05D6A4E61E85434CFDC2280BE68BF4C /* NRWViewLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NRWViewLib;
+				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -598,11 +610,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3308334E1CDEE70668F44D09C564B5E /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
+		FBD9A4FA81E7F2CFE415E96424A5D4E6 /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DEA0D2C82A2669FBE5F6F6D8F32F97A /* Debug */,
-				4AF44B863EE8F3EF8D20AF658069BB82 /* Release */,
+				7B50D2013580E15D8C1564FD088438E5 /* Debug */,
+				ED923CE72F9850D5539E694C582AC3E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

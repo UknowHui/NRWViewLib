@@ -8,7 +8,11 @@
 #ifndef NRWViewLib_h
 #define NRWViewLib_h
 
+//#import "NRWCategory/NRWCategory.h"
 
-#import "NRWCheckboxController.h"
+#import <NRWCategory.h>
+#import <NRWCustomView.h>
+#import <NRWUIKit.h>
+#import <NRWUtil.h>
 
 #endif /* NRWViewLib_h */
