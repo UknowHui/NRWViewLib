@@ -33,7 +33,7 @@
 }
 - (IBAction)checkboxClick:(id)sender {
     
-    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil selectBlock:^(NSMutableArray *indexArray) {
+    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil max:0 selectBlock:^(NSMutableArray *indexArray) {
         
         NSMutableString *mutableStr = [NSMutableString string];
         for (int i = 0; i < indexArray.count; i++) {
@@ -42,6 +42,19 @@
             }
         }
         NSLog(@"%@", mutableStr);
+        
+    }];
+    [self.navigationController pushViewController:checkboxVC animated:YES];
+}
+- (IBAction)radioBtnClick:(id)sender {
+    
+    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil max:1 selectBlock:^(NSMutableArray *indexArray) {
+        [indexArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if ([obj intValue] == 1) {
+                NSLog(@"%@", self.titleArray[idx]);
+                *stop = YES;
+            }
+        }];
         
     }];
     [self.navigationController pushViewController:checkboxVC animated:YES];

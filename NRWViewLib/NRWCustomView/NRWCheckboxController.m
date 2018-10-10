@@ -26,6 +26,8 @@
 
 @property (nonatomic, strong) UIImage *selectImage;
 
+@property (nonatomic, assign) NSUInteger max;
+
 @property (nonatomic, copy) void(^selectBlock)(NSMutableArray *);
 
 @end
@@ -94,7 +96,21 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     int index = [_indexArray[indexPath.row] intValue];
     index = 1 - index;
-    [self.indexArray replaceObjectAtIndex:indexPath.row withObject:[NSString stringWithFormat:@"%d", index]];
+    
+    if (self.max > 0) {
+        
+        [self.indexArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+            if (indexPath.row == idx) {
+                [self.indexArray replaceObjectAtIndex:idx withObject:@"1"];
+            }else{
+                [self.indexArray replaceObjectAtIndex:idx withObject:@"0"];
+            }
+        }];
+    }else{
+        [self.indexArray replaceObjectAtIndex:indexPath.row withObject:[NSString stringWithFormat:@"%d", index]];
+    }
+    
+    
     
     [self.tableview reloadData];
 }
@@ -107,11 +123,12 @@
     }
 }
 
-+ (instancetype)checkboxControllerWithNavTitle:(NSString *)navTitle titleArray:(NSMutableArray *)titleArray indexArray:(NSMutableArray *)indexArray selectBlock:(selectBlock_t)selectBlock{
++ (instancetype)checkboxControllerWithNavTitle:(NSString *)navTitle titleArray:(NSMutableArray *)titleArray indexArray:(NSMutableArray *)indexArray max:(NSUInteger)max selectBlock:(selectBlock_t)selectBlock{
     
     NRWCheckboxController *checkboxVC = [[NRWCheckboxController alloc] init];
     checkboxVC.navTitle = navTitle;
     checkboxVC.titleArray = titleArray;
+    checkboxVC.max = max;
     if (indexArray.count > 0) {
         checkboxVC.indexArray = [indexArray mutableCopy];
     }else{

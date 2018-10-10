@@ -24,11 +24,11 @@
  */
 + (void)alertWithTitle:(NSString *)title
                message:(NSString *)message
-             rightName:(NSString *)rightName
               leftName:(NSString *)leftName
+             rightName:(NSString *)rightName
         viewController:(UIViewController *)viewController
-           rightAction:(void (^)(void))rightAction
-            leftAction:(void (^)(void))leftAction;
+            leftAction:(void (^)(void))leftAction
+           rightAction:(void (^)(void))rightAction;
 
 /**
  * sheet，有提醒

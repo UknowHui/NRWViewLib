@@ -36,26 +36,28 @@
  */
 + (void)alertWithTitle:(NSString *)title
                message:(NSString *)message
-             rightName:(NSString *)rightName
               leftName:(NSString *)leftName
+             rightName:(NSString *)rightName
         viewController:(UIViewController *)viewController
-           rightAction:(void (^)(void))rightAction
             leftAction:(void (^)(void))leftAction
+           rightAction:(void (^)(void))rightAction
 {
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:title message:message preferredStyle:UIAlertControllerStyleAlert];
-    UIAlertAction *right=[UIAlertAction actionWithTitle:rightName style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
-        if (rightAction) {
-            rightAction();
-        }
-    }];
+    
     UIAlertAction *left=[UIAlertAction actionWithTitle:leftName style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
         if (leftAction) {
             leftAction();
         }
     }];
     
-    [alertController addAction:right];
+    UIAlertAction *right=[UIAlertAction actionWithTitle:rightName style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action){
+        if (rightAction) {
+            rightAction();
+        }
+    }];
+    
     [alertController addAction:left];
+    [alertController addAction:right];
     [viewController presentViewController:alertController animated:YES completion:nil];
 }
 

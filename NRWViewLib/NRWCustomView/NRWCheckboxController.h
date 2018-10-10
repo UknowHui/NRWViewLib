@@ -12,6 +12,6 @@ typedef void(^selectBlock_t)(NSMutableArray *indexArray);
 
 @interface NRWCheckboxController : UIViewController
 
-+ (instancetype)checkboxControllerWithNavTitle:(NSString *)navTitle titleArray:(NSMutableArray *)titleArray indexArray:(NSMutableArray *)indexArray selectBlock:(selectBlock_t)selectBlock;
++ (instancetype)checkboxControllerWithNavTitle:(NSString *)navTitle titleArray:(NSMutableArray *)titleArray indexArray:(NSMutableArray *)indexArray max:(NSUInteger)max selectBlock:(selectBlock_t)selectBlock;
 
 @end

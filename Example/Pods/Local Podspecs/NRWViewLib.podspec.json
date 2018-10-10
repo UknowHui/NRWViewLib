@@ -31,7 +31,15 @@
     {
       "name": "NRWCustomView",
       "source_files": "NRWViewLib/NRWCustomView/*.{h,m}",
-      "public_header_files": "NRWViewLib/NRWCustomView/*.h"
+      "public_header_files": "NRWViewLib/NRWCustomView/*.h",
+      "dependencies": {
+        "NRWViewLib/NRWUtil": [
+
+        ],
+        "NRWViewLib/NRWCategory": [
+
+        ]
+      }
     },
     {
       "name": "NRWUIKit",
