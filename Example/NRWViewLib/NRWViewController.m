@@ -8,6 +8,7 @@
 
 #import "NRWViewController.h"
 #import "NRWAlertTableViewController.h"
+#import "NRWCheckboxController.h"
 
 @interface NRWViewController ()
 
@@ -24,7 +25,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    self.titleArray = [NSMutableArray arrayWithObjects:@"就业", @"求学", @"学龄前", nil];
+    self.titleArray = [NSMutableArray arrayWithObjects:@"OC", @"Swift", @"Java", nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,7 +35,7 @@
 }
 - (IBAction)checkboxClick:(id)sender {
     
-    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil max:0 selectBlock:^(NSMutableArray *indexArray) {
+    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择最好的语言" titleArray:self.titleArray indexArray:nil max:0 selectBlock:^(NSMutableArray *indexArray) {
         
         NSMutableString *mutableStr = [NSMutableString string];
         for (int i = 0; i < indexArray.count; i++) {
@@ -49,7 +50,7 @@
 }
 - (IBAction)radioBtnClick:(id)sender {
     
-    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择子女现状" titleArray:self.titleArray indexArray:nil max:1 selectBlock:^(NSMutableArray *indexArray) {
+    NRWCheckboxController *checkboxVC = [NRWCheckboxController checkboxControllerWithNavTitle:@"请选择最好的语言" titleArray:self.titleArray indexArray:nil max:1 selectBlock:^(NSMutableArray *indexArray) {
         [indexArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
             if ([obj intValue] == 1) {
                 NSLog(@"%@", self.titleArray[idx]);

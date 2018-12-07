@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NRWViewLib"
-    s.version      = "0.1.5"
+    s.version      = "0.1.6"
     s.summary      = "Base View"
     s.description  = "Base View Lib"
     s.homepage     = "https://github.com/UknowHui/NRWViewLib"
@@ -18,20 +18,9 @@ Pod::Spec.new do |s|
         ss.public_header_files = 'NRWViewLib/NRWCategory/*.h'
     end
     
-    s.subspec 'NRWCustomView' do |ss|
-        ss.source_files = 'NRWViewLib/NRWCustomView/*.{h,m}'
-        ss.public_header_files = 'NRWViewLib/NRWCustomView/*.h'
-        ss.dependency 'NRWViewLib/NRWUtil'
-        ss.dependency 'NRWViewLib/NRWCategory'
-    end
-    
     s.subspec 'NRWUIKit' do |ss|
         ss.source_files = 'NRWViewLib/NRWUIKit/*.{h,m}'
         ss.public_header_files = 'NRWViewLib/NRWUIKit/*.h'
     end
     
-    s.subspec 'NRWUtil' do |ss|
-        ss.source_files = 'NRWViewLib/NRWUtil/*.{h,m}'
-        ss.public_header_files = 'NRWViewLib/NRWUtil/*.h'
-    end
 end

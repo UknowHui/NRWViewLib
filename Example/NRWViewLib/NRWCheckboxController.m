@@ -39,6 +39,8 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     
+    self.title = self.navTitle;
+    
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithTitle:@"确定" style:UIBarButtonItemStyleDone target:self action:@selector(rightItemClick)];
     self.navigationItem.rightBarButtonItem = rightItem;
     
@@ -100,7 +102,7 @@
     if (self.max > 0) {
         
         [self.indexArray enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-            if (indexPath.row == idx) {
+            if (indexPath.row == idx && [obj isEqualToString:@"0"]) {
                 [self.indexArray replaceObjectAtIndex:idx withObject:@"1"];
             }else{
                 [self.indexArray replaceObjectAtIndex:idx withObject:@"0"];

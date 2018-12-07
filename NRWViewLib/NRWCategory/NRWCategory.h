@@ -11,5 +11,6 @@
 #import "NSError+debugDescription.h"
 #import "UIButton+NRWImageTitle.h"
 #import "UIImage+ClearImage.h"
+#import "UIView+NRWFrame.h"
 
 #endif /* NRWCategory_h */

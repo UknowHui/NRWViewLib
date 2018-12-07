@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		077781EF21BA2CC5000DD396 /* NRWAlertTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077781EE21BA2CC5000DD396 /* NRWAlertTableViewController.m */; };
+		077781F521BA75F8000DD396 /* NRWCheckboxController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077781F321BA75F8000DD396 /* NRWCheckboxController.m */; };
+		077781F621BA75F8000DD396 /* NRWCheckboxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 077781F421BA75F8000DD396 /* NRWCheckboxCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		077781ED21BA2CC5000DD396 /* NRWAlertTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NRWAlertTableViewController.h; sourceTree = "<group>"; };
 		077781EE21BA2CC5000DD396 /* NRWAlertTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NRWAlertTableViewController.m; sourceTree = "<group>"; };
+		077781F121BA75F8000DD396 /* NRWCheckboxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRWCheckboxCell.h; sourceTree = "<group>"; };
+		077781F221BA75F8000DD396 /* NRWCheckboxController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NRWCheckboxController.h; sourceTree = "<group>"; };
+		077781F321BA75F8000DD396 /* NRWCheckboxController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRWCheckboxController.m; sourceTree = "<group>"; };
+		077781F421BA75F8000DD396 /* NRWCheckboxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NRWCheckboxCell.m; sourceTree = "<group>"; };
 		37C816CEC901DC08729553D8 /* libPods-NRWViewLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NRWViewLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4881B913967872A63A7C1F19 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* NRWViewLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NRWViewLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077781F021BA75E2000DD396 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				077781F121BA75F8000DD396 /* NRWCheckboxCell.h */,
+				077781F421BA75F8000DD396 /* NRWCheckboxCell.m */,
+				077781F221BA75F8000DD396 /* NRWCheckboxController.h */,
+				077781F321BA75F8000DD396 /* NRWCheckboxController.m */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +148,7 @@
 		6003F593195388D20070C39A /* Example for NRWViewLib */ = {
 			isa = PBXGroup;
 			children = (
+				077781F021BA75E2000DD396 /* CustomView */,
 				6003F59C195388D20070C39A /* NRWAppDelegate.h */,
 				6003F59D195388D20070C39A /* NRWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -341,8 +359,10 @@
 			files = (
 				6003F59E195388D20070C39A /* NRWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* NRWViewController.m in Sources */,
+				077781F621BA75F8000DD396 /* NRWCheckboxCell.m in Sources */,
 				077781EF21BA2CC5000DD396 /* NRWAlertTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				077781F521BA75F8000DD396 /* NRWCheckboxController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
