@@ -55,23 +55,24 @@
  */
 + (void)addTextFieldWithTitle:(NSString *)title
                       message:(NSString *)message
-                    rightName:(NSString *)rightName
                      leftName:(NSString *)leftName
+                    rightName:(NSString *)rightName
                   placeholder:(NSString *)placeholder
+                    textField:(NSString *)text
                viewController:(UIViewController *)viewController
-                  rightAction:(void (^)(NSString *text))rightAction
-                   leftAction:(void (^)(NSString *text))leftAction;
+                   leftAction:(void (^)(NSString *text))leftAction
+                  rightAction:(void (^)(NSString *text))rightAction;
 /**
  * 有输入框 密文输入
  */
 + (void)addSecureTextFieldWithTitle:(NSString *)title
                             message:(NSString *)message
-                          rightName:(NSString *)rightName
                            leftName:(NSString *)leftName
+                          rightName:(NSString *)rightName
                         placeholder:(NSString *)placeholder
                      viewController:(UIViewController *)viewController
-                        rightAction:(void (^)(NSString *text))rightAction
-                         leftAction:(void (^)(NSString *text))leftAction;
+                         leftAction:(void (^)(NSString *text))leftAction
+                        rightAction:(void (^)(NSString *text))rightAction;
 
 
 

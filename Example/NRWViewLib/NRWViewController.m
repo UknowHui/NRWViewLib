@@ -7,6 +7,7 @@
 //
 
 #import "NRWViewController.h"
+#import "NRWAlertTableViewController.h"
 
 @interface NRWViewController ()
 
@@ -58,6 +59,11 @@
         
     }];
     [self.navigationController pushViewController:checkboxVC animated:YES];
+}
+- (IBAction)alertBtnClick:(id)sender {
+    
+    NRWAlertTableViewController *alertVC = [[NRWAlertTableViewController alloc] init];
+    [self.navigationController pushViewController:alertVC animated:YES];
 }
 
 @end
