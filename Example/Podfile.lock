@@ -1,9 +1,9 @@
 PODS:
-  - NRWViewLib (0.1.6):
-    - NRWViewLib/NRWCategory (= 0.1.6)
-    - NRWViewLib/NRWUIKit (= 0.1.6)
-  - NRWViewLib/NRWCategory (0.1.6)
-  - NRWViewLib/NRWUIKit (0.1.6)
+  - NRWViewLib (0.1.7):
+    - NRWViewLib/NRWCategory (= 0.1.7)
+    - NRWViewLib/NRWUIKit (= 0.1.7)
+  - NRWViewLib/NRWCategory (0.1.7)
+  - NRWViewLib/NRWUIKit (0.1.7)
 
 DEPENDENCIES:
   - NRWViewLib (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NRWViewLib: dbe60406875ab95e633122c6c010c0507572fa9b
+  NRWViewLib: 5cf6aad5e2d545ca947dd84b6d3c2b06beb2de04
 
 PODFILE CHECKSUM: 45ca30b1408e4ff160d0a2b1229c3494cf3666d2
 
