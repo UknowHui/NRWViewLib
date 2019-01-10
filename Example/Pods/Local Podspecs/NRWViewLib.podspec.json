@@ -1,6 +1,6 @@
 {
   "name": "NRWViewLib",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "summary": "Base View",
   "description": "Base View Lib",
   "homepage": "https://github.com/UknowHui/NRWViewLib",
@@ -16,22 +16,17 @@
   },
   "source": {
     "git": "https://github.com/UknowHui/NRWViewLib.git",
-    "tag": "0.1.8"
+    "tag": "0.1.9"
   },
   "source_files": "NRWViewLib/NRWViewLib.h",
   "public_header_files": "NRWViewLib/NRWViewLib.h",
   "resources": "NRWViewLib/NRWViewLib.bundle",
-  "requires_arc": true,
+  "default_subspecs": "NRWViewLib",
   "subspecs": [
     {
-      "name": "NRWCategory",
-      "source_files": "NRWViewLib/NRWCategory/*.{h,m}",
-      "public_header_files": "NRWViewLib/NRWCategory/*.h"
-    },
-    {
-      "name": "NRWUIKit",
-      "source_files": "NRWViewLib/NRWUIKit/*.{h,m}",
-      "public_header_files": "NRWViewLib/NRWUIKit/*.h"
+      "name": "NRWViewLib",
+      "source_files": "NRWViewLib/*.{h,m}",
+      "public_header_files": "NRWViewLib/*.h"
     }
   ]
 }

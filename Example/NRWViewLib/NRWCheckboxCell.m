@@ -34,7 +34,7 @@ static  NSString *const identifier = @"NRWCheckboxCell";
         
         _titleLabel = [[UILabel alloc] initWithFrame:CGRectMake(15, 0, [UIScreen mainScreen].bounds.size.width - 30 - 18 - 5, 44)];
         _titleLabel.font = [UIFont systemFontOfSize:14];
-        _titleLabel.textColor = [UIColor colorWithHexString:@"#FF6816"];
+        _titleLabel.textColor = [UIColor colorFromHexString:@"#FF6816"];
         [self.contentView addSubview:_titleLabel];
         
         _selectImageView = [[UIImageView alloc] initWithFrame:CGRectMake([UIScreen mainScreen].bounds.size.width - 15 - 18, (44 - 13) * 0.5, 18, 13)];
