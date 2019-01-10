@@ -1,5 +1,5 @@
 PODS:
-  - NRWViewLib (0.1.14)
+  - NRWViewLib (0.1.15)
 
 DEPENDENCIES:
   - NRWViewLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NRWViewLib: 7c32fb4ad6944f7d1e03f735d4730fe4b1595df8
+  NRWViewLib: 35d8aa65c92235bda58b4982474d647d0d0085fb
 
 PODFILE CHECKSUM: 45ca30b1408e4ff160d0a2b1229c3494cf3666d2
 

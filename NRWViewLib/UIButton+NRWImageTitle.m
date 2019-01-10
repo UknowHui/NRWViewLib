@@ -10,7 +10,7 @@
 
 @implementation UIButton (NRWImageTitle)
 
-- (void)layoutButtonWithEdgeInsets:(NRWButtonEdgeInsetsStyle)style
+- (void)layoutButtonWithEdgeInsetsStyle:(NRWButtonEdgeInsetsStyle)style
                         imageTitleSpace:(CGFloat)space
 {
     //    self.backgroundColor = [UIColor cyanColor];
@@ -74,15 +74,6 @@
     // 4. 赋值
     self.titleEdgeInsets = labelEdgeInsets;
     self.imageEdgeInsets = imageEdgeInsets;
-}
-
-+ (UIButton *)layoutButtonWith:(NRWButtonEdgeInsetsStyle)style
-               imageTitleSpace:(CGFloat)space {
-    
-    UIButton *button = [[UIButton alloc] init];
-    [button setTitle:@"test" forState:UIControlStateNormal];
-    
-    return button;
 }
 
 @end

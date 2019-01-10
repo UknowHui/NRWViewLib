@@ -1,6 +1,6 @@
 {
   "name": "NRWViewLib",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "summary": "Base View",
   "description": "Base View Lib",
   "homepage": "https://github.com/UknowHui/NRWViewLib",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/UknowHui/NRWViewLib.git",
-    "tag": "0.1.14"
+    "tag": "0.1.15"
   },
   "source_files": "NRWViewLib/**/*.{h,m}",
   "resources": "NRWViewLib/NRWViewLib.bundle",
