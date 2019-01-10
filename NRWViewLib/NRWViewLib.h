@@ -16,6 +16,7 @@
 #import "UIColor+test.h"
 #import "UIView+NRWFrame.h"
 #import "UIColor+Hex.h"
+#import "UIFont+test.h"
 #import "NRWAlert.h"
 
 #endif /* NRWViewLib_h */

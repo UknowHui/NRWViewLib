@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NRWViewLib"
-    s.version      = "0.1.10"
+    s.version      = "0.1.11"
     s.summary      = "Base View"
     s.description  = "Base View Lib"
     s.homepage     = "https://github.com/UknowHui/NRWViewLib"
