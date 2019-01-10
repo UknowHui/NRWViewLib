@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "NRWViewLib"
-    s.version      = "0.1.9"
+    s.version      = "0.1.10"
     s.summary      = "Base View"
     s.description  = "Base View Lib"
     s.homepage     = "https://github.com/UknowHui/NRWViewLib"
@@ -8,17 +8,7 @@ Pod::Spec.new do |s|
     s.author       = { "UknowHui" => "wangyahuiuknow@gmail.com" }
     s.platform     = :ios, '9.0'
     s.source       = { :git => "https://github.com/UknowHui/NRWViewLib.git", :tag => s.version.to_s }
-    s.source_files = 'NRWViewLib/NRWViewLib.h'
-    s.public_header_files = 'NRWViewLib/NRWViewLib.h'
+    s.source_files = 'NRWViewLib/**/*.{h,m}'
     s.resources    = 'NRWViewLib/NRWViewLib.bundle'
-    
-    s.default_subspecs = 'NRWViewLib'
-
-    
-    s.subspec 'NRWViewLib' do |ss|
-        ss.source_files = 'NRWViewLib/*.{h,m}'
-        ss.public_header_files = 'NRWViewLib/*.h'
-    end
-
-    
+    s.requires_arc = true
 end

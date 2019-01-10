@@ -13,6 +13,7 @@
 #import "NSError+debugDescription.h"
 #import "UIButton+NRWImageTitle.h"
 #import "UIImage+ClearImage.h"
+#import "UIColor+test.h"
 #import "UIView+NRWFrame.h"
 #import "UIColor+Hex.h"
 #import "NRWAlert.h"

@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		099A48572306C4984EBA114F21939FE3 /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA0A20D14AC88929D0A9DB020B7786E /* NRWViewLib-dummy.m */; };
-		1BD1BABE1C6E587E6C5DE63A3F557809 /* NSError+debugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B697A089FDC817619903C75FB216B9 /* NSError+debugDescription.m */; };
-		28EBADB4842D1FC1E8DC0AB54A3E6F67 /* UIImage+ClearImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC563971756254ECA78D7C377B62101 /* UIImage+ClearImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2EF1143DC92856B7A2DA3AFC96C250F3 /* UIButton+NRWImageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED5A14EE485E35FC4846B79B11AFFCB /* UIButton+NRWImageTitle.m */; };
-		3367CE2DC9328103B52EE86CC46F0A89 /* NSError+debugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 69EFABA186C1461DCA306022470FC9A1 /* NSError+debugDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0593AFDE8EC8126441861466FD83911D /* UIButton+NRWImageTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 751826A6EBCADE54E4A69C88BEBDD3D6 /* UIButton+NRWImageTitle.m */; };
+		0FE3CFCB24228D953D797BE745B85E04 /* NRWAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B58EA78343FA7EFED965549350B897 /* NRWAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40356E8F4C4946AA5E5F593FC0F32928 /* NSError+debugDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC190CE86B0172D14464994D96547E5 /* NSError+debugDescription.m */; };
 		415893DC3CE5C823F06CDE86FF1A4D0C /* Pods-NRWViewLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */; };
-		6775304FD7E01233FF99ECFAA2743813 /* UIButton+NRWImageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = A3979ABEA02FF2ECF328EACCB93FCC7B /* UIButton+NRWImageTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		802EF60D57B2EA78A7CD00467EA91223 /* UIImage+ClearImage.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEBEAD37FBC1874F855D2828B707AF7 /* UIImage+ClearImage.m */; };
-		A699BD7CA3D0851C29164A619EBFD712 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 088C9D3F01B94324A661F4A8BB67B5F7 /* NRWViewLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B00085C055F620567E1091E2C867D1A1 /* UIView+NRWFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EA09AF0A49287DF28A5841C7AB6EA015 /* UIView+NRWFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BADF0395B3128053656019DDE53B8ED7 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F34B0F842FC98AAFADD4BFF9B008AB /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C191D0D2EF840E4D07FA2A2699DF251D /* NRWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = A378B20F6FA901709E615E9BEA4F4CDE /* NRWAlert.m */; };
-		DDEEF9E38BE4B07FE31BCA65488EA47C /* NRWAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FE6693E2CEEBC1754265C7324272CD /* NRWAlert.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F9070D066D59FEF2BEE1A7F7B338149D /* UIView+NRWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B06A980E0D96B47509296E55B289A43 /* UIView+NRWFrame.m */; };
-		F95E876331F64EEF786E207F3D71EC94 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 9028DD211B2339094256DB06A8E324FE /* UIColor+Hex.m */; };
+		5049A44CCD4303DE7227A2D86CDDAE1C /* UIButton+NRWImageTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A7F8EFBE14BC086CB0D75B06C6C5F1F /* UIButton+NRWImageTitle.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5DA84366EBF5B38C35AF8074F39DA9B6 /* UIView+NRWFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = EB46EB54FE69045AC19D05A4E882F971 /* UIView+NRWFrame.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6AC2A5278DE32B376BBCEFA793E26BC2 /* UIColor+test.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC4B17D6302CB7695A9AF5FF4156BE9 /* UIColor+test.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6E7052EF619F23457E13451332B3C971 /* UIImage+ClearImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5882A9527715D77BB0390C5E386D620A /* UIImage+ClearImage.m */; };
+		77DF25634585D71D504D4A2E883DCC59 /* NRWViewLib.h in Headers */ = {isa = PBXBuildFile; fileRef = CBDF5562FF3DF88C4D4F309F322C0C35 /* NRWViewLib.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9A696735F888703D7623927E066FA4AA /* UIColor+test.m in Sources */ = {isa = PBXBuildFile; fileRef = 413E62FD867BD6F04507B38AAC8306FD /* UIColor+test.m */; };
+		9E40D69AD4B4D44CBB82BDC50ACED421 /* UIImage+ClearImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 6512FF7DC6565CCF3744C497798E4CB1 /* UIImage+ClearImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA506AE7D4D9F2EF401CDC9823E7609F /* NRWViewLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AD52F3FB4829721E78692EA9DD47D9 /* NRWViewLib-dummy.m */; };
+		C694196EF20F6E29890D33370509E2F6 /* NRWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C5564253E6CA2863AEE37DC90C8622 /* NRWAlert.m */; };
+		CCB2AFB482CCC490D0EC252400A326F0 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = CC612300B2E971FE45B28799AD3CCD14 /* UIColor+Hex.m */; };
+		D538472AAB8655CC84347EF7D1B4C125 /* UIView+NRWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B7184968CB3CEBC2343E42CD1D5711D4 /* UIView+NRWFrame.m */; };
+		E867E3EE08EF1621D5376556262BC344 /* NSError+debugDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED79453D1F7EDE73BA45FD6DB61A209 /* NSError+debugDescription.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F4A2082ADA98B571D9E7F94A5D2FE4FE /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = FD7558FAA426E1E551E508D985C5BF0D /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,42 +31,44 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B4BF87D0E2E00EBF4E45057D305D7DA;
+			remoteGlobalIDString = 9E3EC99B71D90C3D1053950766AEB819;
 			remoteInfo = NRWViewLib;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088C9D3F01B94324A661F4A8BB67B5F7 /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
-		1B06A980E0D96B47509296E55B289A43 /* UIView+NRWFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NRWFrame.m"; path = "NRWViewLib/UIView+NRWFrame.m"; sourceTree = "<group>"; };
-		1EC563971756254ECA78D7C377B62101 /* UIImage+ClearImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ClearImage.h"; path = "NRWViewLib/UIImage+ClearImage.h"; sourceTree = "<group>"; };
-		20ADF908A2001897E477072C9B493690 /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
 		226FB6BE9C615342FFDEB886FD59DB1A /* Pods-NRWViewLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		440575516B2D96571103C4D622ECFEC9 /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		32AD52F3FB4829721E78692EA9DD47D9 /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
+		3A7F8EFBE14BC086CB0D75B06C6C5F1F /* UIButton+NRWImageTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NRWImageTitle.h"; path = "NRWViewLib/UIButton+NRWImageTitle.h"; sourceTree = "<group>"; };
+		3A82143ACC22D58D49602D2A5A8D5841 /* NRWViewLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRWViewLib.xcconfig; sourceTree = "<group>"; };
+		408CEF22E1C8A6D38818A4FEC9B4821F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		413E62FD867BD6F04507B38AAC8306FD /* UIColor+test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+test.m"; path = "NRWViewLib/UIColor+test.m"; sourceTree = "<group>"; };
 		4472DD464EE5C107BDC7D80DCF64283B /* libNRWViewLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libNRWViewLib.a; path = libNRWViewLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5374332D1246B3EA31710DA4DC9DFDEE /* Pods-NRWViewLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRWViewLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5ED5A14EE485E35FC4846B79B11AFFCB /* UIButton+NRWImageTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NRWImageTitle.m"; path = "NRWViewLib/UIButton+NRWImageTitle.m"; sourceTree = "<group>"; };
-		69EFABA186C1461DCA306022470FC9A1 /* NSError+debugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+debugDescription.h"; path = "NRWViewLib/NSError+debugDescription.h"; sourceTree = "<group>"; };
+		5882A9527715D77BB0390C5E386D620A /* UIImage+ClearImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ClearImage.m"; path = "NRWViewLib/UIImage+ClearImage.m"; sourceTree = "<group>"; };
+		59D615A96F3914BBED6AA09213069AC9 /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
+		6512FF7DC6565CCF3744C497798E4CB1 /* UIImage+ClearImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ClearImage.h"; path = "NRWViewLib/UIImage+ClearImage.h"; sourceTree = "<group>"; };
+		67B58EA78343FA7EFED965549350B897 /* NRWAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWAlert.h; path = NRWViewLib/NRWAlert.h; sourceTree = "<group>"; };
+		684A4A97C8389D22A7FF935F83A30E38 /* NRWViewLib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NRWViewLib.bundle; path = NRWViewLib/NRWViewLib.bundle; sourceTree = "<group>"; };
 		6CCBEE16A681178CD78E0BB1EED90737 /* libPods-NRWViewLib_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-NRWViewLib_Example.a"; path = "libPods-NRWViewLib_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6EA0A20D14AC88929D0A9DB020B7786E /* NRWViewLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRWViewLib-dummy.m"; sourceTree = "<group>"; };
+		6ED79453D1F7EDE73BA45FD6DB61A209 /* NSError+debugDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+debugDescription.h"; path = "NRWViewLib/NSError+debugDescription.h"; sourceTree = "<group>"; };
 		73AC139047BA32D48D8C824F608254BB /* Pods-NRWViewLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRWViewLib_Example-dummy.m"; sourceTree = "<group>"; };
+		73C5564253E6CA2863AEE37DC90C8622 /* NRWAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWAlert.m; path = NRWViewLib/NRWAlert.m; sourceTree = "<group>"; };
 		74984CB11E2F9A1BEE26D047D32B7A34 /* Pods-NRWViewLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRWViewLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		751826A6EBCADE54E4A69C88BEBDD3D6 /* UIButton+NRWImageTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+NRWImageTitle.m"; path = "NRWViewLib/UIButton+NRWImageTitle.m"; sourceTree = "<group>"; };
 		7D8E40C5E68F0C0DB48C1C933DFD2D17 /* Pods-NRWViewLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9028DD211B2339094256DB06A8E324FE /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "NRWViewLib/UIColor+Hex.m"; sourceTree = "<group>"; };
+		9084942476034F3FE41A1D452D44925A /* NRWViewLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = NRWViewLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DD3C615D995E3DB95530383BBBB7F67 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		A378B20F6FA901709E615E9BEA4F4CDE /* NRWAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NRWAlert.m; path = NRWViewLib/NRWAlert.m; sourceTree = "<group>"; };
-		A3979ABEA02FF2ECF328EACCB93FCC7B /* UIButton+NRWImageTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+NRWImageTitle.h"; path = "NRWViewLib/UIButton+NRWImageTitle.h"; sourceTree = "<group>"; };
-		AE7FC9F0F05964A26789C92136F31F3F /* NRWViewLib.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NRWViewLib.bundle; path = NRWViewLib/NRWViewLib.bundle; sourceTree = "<group>"; };
+		B7184968CB3CEBC2343E42CD1D5711D4 /* UIView+NRWFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+NRWFrame.m"; path = "NRWViewLib/UIView+NRWFrame.m"; sourceTree = "<group>"; };
 		C8DC54EFAA62BE087726002B7DAED730 /* Pods-NRWViewLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRWViewLib_Example-resources.sh"; sourceTree = "<group>"; };
-		D1FE6693E2CEEBC1754265C7324272CD /* NRWAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWAlert.h; path = NRWViewLib/NRWAlert.h; sourceTree = "<group>"; };
-		D6F34B0F842FC98AAFADD4BFF9B008AB /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "NRWViewLib/UIColor+Hex.h"; sourceTree = "<group>"; };
+		CBDF5562FF3DF88C4D4F309F322C0C35 /* NRWViewLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NRWViewLib.h; path = NRWViewLib/NRWViewLib.h; sourceTree = "<group>"; };
+		CC612300B2E971FE45B28799AD3CCD14 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "NRWViewLib/UIColor+Hex.m"; sourceTree = "<group>"; };
+		CE0AAA2F9CE65711EF87789B4D6D82B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E7FC64FA7DB1E27DB4C4DBC8EF935F0C /* Pods-NRWViewLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRWViewLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E8B697A089FDC817619903C75FB216B9 /* NSError+debugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+debugDescription.m"; path = "NRWViewLib/NSError+debugDescription.m"; sourceTree = "<group>"; };
-		E9916A385895DA4B859678159E5B4B04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EA09AF0A49287DF28A5841C7AB6EA015 /* UIView+NRWFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NRWFrame.h"; path = "NRWViewLib/UIView+NRWFrame.h"; sourceTree = "<group>"; };
-		F97343F7B9E51799749F4A0C8B5620B6 /* NRWViewLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRWViewLib-prefix.pch"; sourceTree = "<group>"; };
-		FAEBEAD37FBC1874F855D2828B707AF7 /* UIImage+ClearImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ClearImage.m"; path = "NRWViewLib/UIImage+ClearImage.m"; sourceTree = "<group>"; };
+		EB46EB54FE69045AC19D05A4E882F971 /* UIView+NRWFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+NRWFrame.h"; path = "NRWViewLib/UIView+NRWFrame.h"; sourceTree = "<group>"; };
+		EEC190CE86B0172D14464994D96547E5 /* NSError+debugDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSError+debugDescription.m"; path = "NRWViewLib/NSError+debugDescription.m"; sourceTree = "<group>"; };
+		FD7558FAA426E1E551E508D985C5BF0D /* UIColor+Hex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "NRWViewLib/UIColor+Hex.h"; sourceTree = "<group>"; };
+		FFC4B17D6302CB7695A9AF5FF4156BE9 /* UIColor+test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+test.h"; path = "NRWViewLib/UIColor+test.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +79,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E96E66F19EC5286BD90D8C97A4DEF0D /* Frameworks */ = {
+		8C6E3541A3F2EF00BA4054A86D0AB350 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,16 +98,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		07A1EDCDD9AEE84C4284BECC68178EC7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E9916A385895DA4B859678159E5B4B04 /* LICENSE */,
-				440575516B2D96571103C4D622ECFEC9 /* NRWViewLib.podspec */,
-				9DD3C615D995E3DB95530383BBBB7F67 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,12 +105,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		24A9C69260BBB37540B771C9CFB42183 /* Development Pods */ = {
+		3C37EC704BF41C20662E6D968CE800CD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E241CA6A213F8B44C8EFC86648CD068B /* NRWViewLib */,
+				CE0AAA2F9CE65711EF87789B4D6D82B5 /* LICENSE */,
+				9084942476034F3FE41A1D452D44925A /* NRWViewLib.podspec */,
+				408CEF22E1C8A6D38818A4FEC9B4821F /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		49EAB9A6A7E13921B7BD0FF97F1326E2 /* Pods-NRWViewLib_Example */ = {
@@ -134,15 +130,30 @@
 			path = "Target Support Files/Pods-NRWViewLib_Example";
 			sourceTree = "<group>";
 		};
-		5B7135507A3D7F3A36BCD7CB289E8A67 /* Support Files */ = {
+		55202B113816BA1C9311FBB2D4438443 /* NRWViewLib */ = {
 			isa = PBXGroup;
 			children = (
-				20ADF908A2001897E477072C9B493690 /* NRWViewLib.xcconfig */,
-				6EA0A20D14AC88929D0A9DB020B7786E /* NRWViewLib-dummy.m */,
-				F97343F7B9E51799749F4A0C8B5620B6 /* NRWViewLib-prefix.pch */,
+				67B58EA78343FA7EFED965549350B897 /* NRWAlert.h */,
+				73C5564253E6CA2863AEE37DC90C8622 /* NRWAlert.m */,
+				CBDF5562FF3DF88C4D4F309F322C0C35 /* NRWViewLib.h */,
+				6ED79453D1F7EDE73BA45FD6DB61A209 /* NSError+debugDescription.h */,
+				EEC190CE86B0172D14464994D96547E5 /* NSError+debugDescription.m */,
+				3A7F8EFBE14BC086CB0D75B06C6C5F1F /* UIButton+NRWImageTitle.h */,
+				751826A6EBCADE54E4A69C88BEBDD3D6 /* UIButton+NRWImageTitle.m */,
+				FD7558FAA426E1E551E508D985C5BF0D /* UIColor+Hex.h */,
+				CC612300B2E971FE45B28799AD3CCD14 /* UIColor+Hex.m */,
+				FFC4B17D6302CB7695A9AF5FF4156BE9 /* UIColor+test.h */,
+				413E62FD867BD6F04507B38AAC8306FD /* UIColor+test.m */,
+				6512FF7DC6565CCF3744C497798E4CB1 /* UIImage+ClearImage.h */,
+				5882A9527715D77BB0390C5E386D620A /* UIImage+ClearImage.m */,
+				EB46EB54FE69045AC19D05A4E882F971 /* UIView+NRWFrame.h */,
+				B7184968CB3CEBC2343E42CD1D5711D4 /* UIView+NRWFrame.m */,
+				3C37EC704BF41C20662E6D968CE800CD /* Pod */,
+				EFD23068D45346E6A833DAA9995B6D56 /* Resources */,
+				8E21046C5E6B5D5C3423FA639FAE93F7 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/NRWViewLib";
+			name = NRWViewLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		64B932493E7B637B82C3A0FD262719EF /* Targets Support Files */ = {
@@ -157,51 +168,38 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				24A9C69260BBB37540B771C9CFB42183 /* Development Pods */,
+				A0EDBF32B046D7BCBEDFBA82E34473A4 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				014967588AC27EC7BE18CF2C3F81E5E5 /* Products */,
 				64B932493E7B637B82C3A0FD262719EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D3B2AB3FF49E91194D88A1966480E7C7 /* Resources */ = {
+		8E21046C5E6B5D5C3423FA639FAE93F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AE7FC9F0F05964A26789C92136F31F3F /* NRWViewLib.bundle */,
+				3A82143ACC22D58D49602D2A5A8D5841 /* NRWViewLib.xcconfig */,
+				32AD52F3FB4829721E78692EA9DD47D9 /* NRWViewLib-dummy.m */,
+				59D615A96F3914BBED6AA09213069AC9 /* NRWViewLib-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRWViewLib";
+			sourceTree = "<group>";
+		};
+		A0EDBF32B046D7BCBEDFBA82E34473A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55202B113816BA1C9311FBB2D4438443 /* NRWViewLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EFD23068D45346E6A833DAA9995B6D56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				684A4A97C8389D22A7FF935F83A30E38 /* NRWViewLib.bundle */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		E241CA6A213F8B44C8EFC86648CD068B /* NRWViewLib */ = {
-			isa = PBXGroup;
-			children = (
-				088C9D3F01B94324A661F4A8BB67B5F7 /* NRWViewLib.h */,
-				FA92219D1F49DBE2358D47BE1E90D1DC /* NRWViewLib */,
-				07A1EDCDD9AEE84C4284BECC68178EC7 /* Pod */,
-				D3B2AB3FF49E91194D88A1966480E7C7 /* Resources */,
-				5B7135507A3D7F3A36BCD7CB289E8A67 /* Support Files */,
-			);
-			name = NRWViewLib;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FA92219D1F49DBE2358D47BE1E90D1DC /* NRWViewLib */ = {
-			isa = PBXGroup;
-			children = (
-				D1FE6693E2CEEBC1754265C7324272CD /* NRWAlert.h */,
-				A378B20F6FA901709E615E9BEA4F4CDE /* NRWAlert.m */,
-				69EFABA186C1461DCA306022470FC9A1 /* NSError+debugDescription.h */,
-				E8B697A089FDC817619903C75FB216B9 /* NSError+debugDescription.m */,
-				A3979ABEA02FF2ECF328EACCB93FCC7B /* UIButton+NRWImageTitle.h */,
-				5ED5A14EE485E35FC4846B79B11AFFCB /* UIButton+NRWImageTitle.m */,
-				D6F34B0F842FC98AAFADD4BFF9B008AB /* UIColor+Hex.h */,
-				9028DD211B2339094256DB06A8E324FE /* UIColor+Hex.m */,
-				1EC563971756254ECA78D7C377B62101 /* UIImage+ClearImage.h */,
-				FAEBEAD37FBC1874F855D2828B707AF7 /* UIImage+ClearImage.m */,
-				EA09AF0A49287DF28A5841C7AB6EA015 /* UIView+NRWFrame.h */,
-				1B06A980E0D96B47509296E55B289A43 /* UIView+NRWFrame.m */,
-			);
-			name = NRWViewLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,30 +212,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5440B8F04F8B4B79287D4769D0E8FE /* Headers */ = {
+		4D1933560F5CD723596596B8546B2236 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDEEF9E38BE4B07FE31BCA65488EA47C /* NRWAlert.h in Headers */,
-				A699BD7CA3D0851C29164A619EBFD712 /* NRWViewLib.h in Headers */,
-				3367CE2DC9328103B52EE86CC46F0A89 /* NSError+debugDescription.h in Headers */,
-				6775304FD7E01233FF99ECFAA2743813 /* UIButton+NRWImageTitle.h in Headers */,
-				BADF0395B3128053656019DDE53B8ED7 /* UIColor+Hex.h in Headers */,
-				28EBADB4842D1FC1E8DC0AB54A3E6F67 /* UIImage+ClearImage.h in Headers */,
-				B00085C055F620567E1091E2C867D1A1 /* UIView+NRWFrame.h in Headers */,
+				0FE3CFCB24228D953D797BE745B85E04 /* NRWAlert.h in Headers */,
+				77DF25634585D71D504D4A2E883DCC59 /* NRWViewLib.h in Headers */,
+				E867E3EE08EF1621D5376556262BC344 /* NSError+debugDescription.h in Headers */,
+				5049A44CCD4303DE7227A2D86CDDAE1C /* UIButton+NRWImageTitle.h in Headers */,
+				F4A2082ADA98B571D9E7F94A5D2FE4FE /* UIColor+Hex.h in Headers */,
+				6AC2A5278DE32B376BBCEFA793E26BC2 /* UIColor+test.h in Headers */,
+				9E40D69AD4B4D44CBB82BDC50ACED421 /* UIImage+ClearImage.h in Headers */,
+				5DA84366EBF5B38C35AF8074F39DA9B6 /* UIView+NRWFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3B4BF87D0E2E00EBF4E45057D305D7DA /* NRWViewLib */ = {
+		9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04ED4A37792FAC4F1C3F5AA6EF06730A /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
+			buildConfigurationList = E3308334E1CDEE70668F44D09C564B5E /* Build configuration list for PBXNativeTarget "NRWViewLib" */;
 			buildPhases = (
-				8C5440B8F04F8B4B79287D4769D0E8FE /* Headers */,
-				9040A7699C175717F8036AA5D93BBAD8 /* Sources */,
-				8E96E66F19EC5286BD90D8C97A4DEF0D /* Frameworks */,
+				4D1933560F5CD723596596B8546B2236 /* Headers */,
+				D6B9D4A9250612F6C1248D7654191DF1 /* Sources */,
+				8C6E3541A3F2EF00BA4054A86D0AB350 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -287,7 +286,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B4BF87D0E2E00EBF4E45057D305D7DA /* NRWViewLib */,
+				9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */,
 				FDF82F81C8F7D68D4A6A338511BEC7B9 /* Pods-NRWViewLib_Example */,
 			);
 		};
@@ -302,17 +301,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9040A7699C175717F8036AA5D93BBAD8 /* Sources */ = {
+		D6B9D4A9250612F6C1248D7654191DF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C191D0D2EF840E4D07FA2A2699DF251D /* NRWAlert.m in Sources */,
-				099A48572306C4984EBA114F21939FE3 /* NRWViewLib-dummy.m in Sources */,
-				1BD1BABE1C6E587E6C5DE63A3F557809 /* NSError+debugDescription.m in Sources */,
-				2EF1143DC92856B7A2DA3AFC96C250F3 /* UIButton+NRWImageTitle.m in Sources */,
-				F95E876331F64EEF786E207F3D71EC94 /* UIColor+Hex.m in Sources */,
-				802EF60D57B2EA78A7CD00467EA91223 /* UIImage+ClearImage.m in Sources */,
-				F9070D066D59FEF2BEE1A7F7B338149D /* UIView+NRWFrame.m in Sources */,
+				C694196EF20F6E29890D33370509E2F6 /* NRWAlert.m in Sources */,
+				BA506AE7D4D9F2EF401CDC9823E7609F /* NRWViewLib-dummy.m in Sources */,
+				40356E8F4C4946AA5E5F593FC0F32928 /* NSError+debugDescription.m in Sources */,
+				0593AFDE8EC8126441861466FD83911D /* UIButton+NRWImageTitle.m in Sources */,
+				CCB2AFB482CCC490D0EC252400A326F0 /* UIColor+Hex.m in Sources */,
+				9A696735F888703D7623927E066FA4AA /* UIColor+test.m in Sources */,
+				6E7052EF619F23457E13451332B3C971 /* UIImage+ClearImage.m in Sources */,
+				D538472AAB8655CC84347EF7D1B4C125 /* UIView+NRWFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +322,7 @@
 		C548DA112B407426906729562E3F050C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NRWViewLib;
-			target = 3B4BF87D0E2E00EBF4E45057D305D7DA /* NRWViewLib */;
+			target = 9E3EC99B71D90C3D1053950766AEB819 /* NRWViewLib */;
 			targetProxy = 4DA9B7EC7F97C4480CB7BCB134F65D03 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -345,6 +345,53 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEA0D2C82A2669FBE5F6F6D8F32F97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A82143ACC22D58D49602D2A5A8D5841 /* NRWViewLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NRWViewLib;
+				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AF44B863EE8F3EF8D20AF658069BB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A82143ACC22D58D49602D2A5A8D5841 /* NRWViewLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = NRWViewLib;
+				PRODUCT_NAME = NRWViewLib;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -433,30 +480,6 @@
 			};
 			name = Release;
 		};
-		7076C1FEAD499AED45F9311E2973A514 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20ADF908A2001897E477072C9B493690 /* NRWViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = NRWViewLib;
-				PRODUCT_NAME = NRWViewLib;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -523,41 +546,9 @@
 			};
 			name = Debug;
 		};
-		A784665C5C90AE87DA531E80F69093D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20ADF908A2001897E477072C9B493690 /* NRWViewLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/NRWViewLib/NRWViewLib-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = NRWViewLib;
-				PRODUCT_NAME = NRWViewLib;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04ED4A37792FAC4F1C3F5AA6EF06730A /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A784665C5C90AE87DA531E80F69093D7 /* Debug */,
-				7076C1FEAD499AED45F9311E2973A514 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -572,6 +563,15 @@
 			buildConfigurations = (
 				4CEB89AA7FEF930CDFFFF48BCCCD6A9E /* Debug */,
 				275CC699A2D9EB96930ED5905A6E34A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3308334E1CDEE70668F44D09C564B5E /* Build configuration list for PBXNativeTarget "NRWViewLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEA0D2C82A2669FBE5F6F6D8F32F97A /* Debug */,
+				4AF44B863EE8F3EF8D20AF658069BB82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
