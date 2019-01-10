@@ -12,6 +12,6 @@
 #import "UIButton+NRWImageTitle.h"
 #import "UIImage+ClearImage.h"
 #import "UIView+NRWFrame.h"
-#import "UIColor+Hex.h"
+#import "UIColor+NRWHex.h"
 
 #endif /* NRWCategory_h */

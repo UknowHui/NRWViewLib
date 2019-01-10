@@ -85,7 +85,7 @@
     cell.titleLabel.text = _titleArray[indexPath.row];
     int index = [_indexArray[indexPath.row] intValue];
     if (index == 1) {
-        cell.titleLabel.textColor = [UIColor colorFromHexString:@"#FF6816"];
+        cell.titleLabel.textColor = [UIColor colorWithHexString:@"#FF6816"];
         cell.selectImageView.image = self.selectImage;
     }else{
         cell.titleLabel.textColor = [UIColor blackColor];
