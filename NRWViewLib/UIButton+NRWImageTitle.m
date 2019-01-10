@@ -10,7 +10,7 @@
 
 @implementation UIButton (NRWImageTitle)
 
-- (void)layoutButtonWithEdgeInsetsStyle:(NRWButtonEdgeInsetsStyle)style
+- (void)layoutButtonWithEdgeInsets:(NRWButtonEdgeInsetsStyle)style
                         imageTitleSpace:(CGFloat)space
 {
     //    self.backgroundColor = [UIColor cyanColor];
