@@ -76,5 +76,13 @@
     self.imageEdgeInsets = imageEdgeInsets;
 }
 
++ (UIButton *)layoutButtonWith:(NRWButtonEdgeInsetsStyle)style
+               imageTitleSpace:(CGFloat)space {
+    
+    UIButton *button = [[UIButton alloc] init];
+    [button setTitle:@"test" forState:UIControlStateNormal];
+    
+    return button;
+}
 
 @end

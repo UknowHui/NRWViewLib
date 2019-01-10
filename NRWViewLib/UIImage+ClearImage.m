@@ -27,6 +27,23 @@
     
     return img;
 }
++(UIImage *)clearImages{
+    CGRect rect = CGRectMake(0, 0, 1, 1);
+    
+    UIGraphicsBeginImageContext(rect.size);
+    
+    CGContextRef context = UIGraphicsGetCurrentContext();
+    
+    CGContextSetFillColorWithColor(context, [[UIColor clearColor] CGColor]);
+    
+    CGContextFillRect(context, rect);
+    
+    UIImage *img = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return img;
+}
 
 + (UIImage *)testImage {
     

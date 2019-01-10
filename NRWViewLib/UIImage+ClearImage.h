@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface UIImage (ClearImage)
 
 +(UIImage *)clearImage;
++(UIImage *)clearImages;
 + (UIImage *)testImage;
 @end
 NS_ASSUME_NONNULL_END
