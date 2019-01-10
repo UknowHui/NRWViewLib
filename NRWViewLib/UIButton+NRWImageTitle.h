@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, NRWButtonEdgeInsetsStyle) {
 
 @interface UIButton (NRWImageTitle)
 
-- (void)layoutButtonWithEdgeInsetsStyle:(NRWButtonEdgeInsetsStyle)style
+- (void)layoutButtonWithEdgeInsets:(NRWButtonEdgeInsetsStyle)style
                         imageTitleSpace:(CGFloat)space;
 
 + (UIButton *)layoutButtonWith:(NRWButtonEdgeInsetsStyle)style
