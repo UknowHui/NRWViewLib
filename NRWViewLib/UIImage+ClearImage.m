@@ -28,4 +28,9 @@
     return img;
 }
 
++ (UIImage *)testImage {
+    
+    return [[UIImage alloc] init];
+}
+
 @end
